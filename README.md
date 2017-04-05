@@ -1,1 +1,1 @@
-
+These resources were compiled while working at the Student Learning Commons at Simon Fraser University to help students writing in French. They are based in large parts on recurring questions and issues presented by students during one on one consultations.
