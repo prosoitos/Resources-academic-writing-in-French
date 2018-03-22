@@ -17,14 +17,9 @@
 #+HTML_DOCTYPE: <!DOCTYPE html>
 
 #+TITLE: Resources for Academic Writing in French
-#+DATE: January 20, 2017
+#+DATE: {{{time(%B %d\, %Y)}}}
 #+AUTHOR: Marie-Hélène Burle
 #+EMAIL: msb2@sfu.ca
-
-#+HTML: <div class="outline-2" id="meta">
-| *Author* | {{{author}}}           |
-| *Date*   | {{{time(%B %d\, %Y)}}} |
-#+HTML: </div>
 
 * Purpose of this document
 
