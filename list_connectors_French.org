@@ -1,0 +1,93 @@
+#+OPTIONS: title:t date:t author:t email:nil
+#+OPTIONS: toc:t h:6 num:nil |:t todo:nil
+#+OPTIONS: *:t -:t ::t <:t \n:t e:t creator:nil
+#+OPTIONS: f:t inline:t tasks:t tex:t timestamp:t
+#+OPTIONS: html-preamble:t html-postamble:nil
+
+#+TITLE:   Structure de texte : vocabulaire
+#+DATE:	   {{{time(%B %d\, %Y)}}}
+#+AUTHOR:  Marie-Hélène Burle
+#+EMAIL:   msb2@sfu.ca
+
+
+
+* Énumérer
+
+** Commencer
+
+#+BEGIN_EXAMPLE
+Premièrement
+D’abord
+Tout d'abord
+Au début
+Pour commencer
+#+END_EXAMPLE
+\\
+
+** Continuer
+
+#+BEGIN_EXAMPLE
+CHRONOLOGIQUEMENT :
+Deuxièmement
+Ensuite
+Puis
+Après
+
+EN AJOUTANT :
+De plus
+Ajoutons que
+En outre
+Par ailleurs
+Aussi
+Egalement
+#+END_EXAMPLE
+\\
+
+** Finir
+
+#+BEGIN_EXAMPLE
+Enfin
+Finalement
+Pour finir
+Pour terminer
+Pour conclure
+En conclusion
+#+END_EXAMPLE
+\\
+
+* Contraster/comparer
+
+** Similarités
+
+#+BEGIN_EXAMPLE
+De la même manière
+De la même façon
+Similairement
+#+END_EXAMPLE
+\\
+
+** Différences
+
+#+BEGIN_EXAMPLE
+En revanche
+Au contraire
+Alors que
+Pourtant
+D'autre part
+D'un autre côté
+Par ailleurs
+#+END_EXAMPLE
+\\
+
+* Causalité
+
+#+BEGIN_EXAMPLE
+Du coup
+En conséquence
+Par conséquent
+Il en résulte que
+De ce fait
+Donc
+Ainsi
+C'est pourquoi
+#+END_EXAMPLE

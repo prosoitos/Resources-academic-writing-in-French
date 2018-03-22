@@ -1,0 +1,595 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:4 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:nil tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+
+#+LATEX_HEADER: \usepackage[margin=0.7in]{geometry}
+#+LATEX_HEADER: \setlength{\parindent}{0cm}
+
+
+#+TITLE: Resources for Academic Writing in French
+#+DATE: December 12, 2016
+#+AUTHOR: Marie-Hélène Burle
+#+EMAIL: msb2@sfu.ca
+
+\newpage
+
+* Purpose of this document
+
+\nbsp This document offers resources to students writing in French at the undergraduate and postgraduate levels. It has been inspired by the recurring questions and issues encountered during consultations with students and it includes:
+a. Grammatical and vocabulary help
+b. Advice on dissertation structure and dissertation writing
+c. A useful tip on how to easily type special French characters on any keyboard
+d. Suggestions as to where students can find additional help
+e. Ideas on where to meet French speakers and how to get exposed to the language to improve fluency
+\nbsp The information presented is valid as of December 2016. The rest of this information is written in French since it is destined to people with at least a basic understanding of the language.
+
+* Orthographe et typographie
+
+** Différences à connaître entre le français et l'anglais
+
+*** Majuscules
+
+**** Noms et adjectifs de nationalité
+\mbox{} \\
+
+En anglais, les noms et adjectifs se rapportant aux langues et aux pays prennent toujours des majuscules :
+#+BEGIN_QUOTE
+/I am French/\\
+/I speak French/\\
+/The French are always on strike/
+#+END_QUOTE
+Ce n'est pas le cas en français :\\
+
+_Adjectifs_\\
+
+Les adjectifs ne prennent jamais de majuscule en français. Donc :\\
+
+adjectifs de nationalité ou se rapportant aux langues \rightarrow \fcolorbox{LightSkyBlue4}{LightSteelBlue1}{pas de majuscule}
+#+BEGIN_QUOTE
+/Je suis française/\\
+/La langue française/
+#+END_QUOTE
+_Noms_\\
+
+Pour les noms, il ne faut pas de majuscule lorsque l'on parle des langues\\
+
+les langues \rightarrow \fcolorbox{LightSkyBlue4}{LightSteelBlue1}{pas de majuscule}
+#+BEGIN_QUOTE
+/Je parle français/\\
+/Le français et l'anglais/
+#+END_QUOTE
+Ceci dit, lorsque l'on parle de personnes, il faut la majuscule\\
+
+les habitants d'un pays \rightarrow \fcolorbox{LightSkyBlue4}{DarkSlateGray1}{majuscule}
+#+BEGIN_QUOTE
+/Les Français sont tout le temps en grève/
+#+END_QUOTE
+
+
+**** Jours de la semaine et mois
+\mbox{} \\
+
+En anglais, les jours de la semaine et les mois prennent des majuscules. Mais pas en français :
+#+BEGIN_QUOTE
+/Le lundi et le mardi/\\
+/Le jeudi 3 mars/\\
+/Tous les dimanches de novembre/
+#+END_QUOTE
+
+
+*** Ponctuation
+
+Contrairement à l'anglais, il faut un espace avant les deux points, le point d'interrogation et le point d'exclamation :
+#+BEGIN_QUOTE
+/Tu viens ?
+Ah non !/
+#+END_QUOTE
+Les guillemets sont différents et il faut un espace entre les guillemets et le texte :
+#+BEGIN_QUOTE
+/Il lui dit : « d'accord »/
+#+END_QUOTE
+Note : un éditeur de texte (par exemple MS Word ou OpenOffice Writer) corrigera tout cela automatiquement si vous le mettez en français.
+
+
+*** « et » et la virgule
+
+L'usage d'une virgule avec « et » est différent en français et en anglais :\\
+
+\rightarrow  En anglais, il faut une virgule avant « and » dans une énumération qui comprend plus de deux éléments :
+
+#+BEGIN_QUOTE
+/French, English, and Spanish/
+#+END_QUOTE
+
+\rightarrow  En français, il n'y a pas de virgule avant « et » :
+
+#+BEGIN_QUOTE
+/Le français, l'anglais et l'espagnol/
+#+END_QUOTE
+
+
+** Utiliser le féminin pour trouver l'orthographe des noms, adjectifs et participes passés
+
+Mettre un mot au féminin peut aider à trouver sa terminaison :
+
+#+BEGIN_QUOTE
+/chat \rightarrow chatte/\\
+/ouvert \rightarrow ouverte/\\
+/remis \rightarrow remise/
+#+END_QUOTE
+
+* Grammaire
+
+** Voix active/passive
+
+*** Définition
+
+\fcolorbox{Emerald}{LightCyan}{Voix active : le sujet fait l'action}\\
+
+\fcolorbox{Emerald}{LightCyan}{Voix passive : le sujet subit l'action et le complément d'agent (introduit par « par ») fait l'action}
+
+#+BEGIN_QUOTE
+/Le complément d'agent fait l'action/ (voix active)\\
+/L'action est faite _par_ le complément d'agent/ (voix passive)
+
+/Notre équipe a réalisé une étude/ (voix active)\\
+/Une étude a été réalisée _par_ notre équipe/ (voix passive)
+#+END_QUOTE
+
+
+*** Formation
+
+La voix passive se construit avec \fcolorbox{SlateGray3}{Azure2}{l'auxilaire être + le participe passé du verbe}.\\
+
+Attention donc à ne pas confondre un temps simple à la voix passive avec un temps composé.
+
+Par exemple, il ne faut pas confondre un verbe au présent de la voix passive avec un passé composé :
+
+#+BEGIN_QUOTE
+/Le lapin est mangé par le loup/\\
+\rightarrow Présent de la voix passive. Cela équivaut à : le loup mange le lapin (maintenant)\\
+
+/Le lapin a mangé la salade/\\
+\rightarrow Passé composé de la voix active. Le lapin a mangé la salade hier.
+#+END_QUOTE
+
+
+*** Écrivez à l'actif !
+
+\nbsp Pendant longtemps, il a été d'usage d'utiliser la voix passive dans les travaux académiques, probablement par modestie. Cette habitude est tombée en désuétude, mais malheureusement les étudiants continuent trop souvent à écrire au passif, rendant les textes tortueux et le style inutilement lourd. Je vous encourage vivement à utiliser la voix active :
+1. la construction est beaucoup plus directe
+2. il est maintenant d'usage d'annoncer clairement et sans détour que nous sommes l'auteur d'un travail
+
+
+** Règles d'accord
+
+*** Les adjectifs
+
+\colorbox{DarkOliveGreen1}{Les adjectifs s'accordent en genre et en nombre avec le nom auquel ils se rapportent}
+
+
+*** Les participes passés
+
+_Avec l'auxiliaire être_\\
+
+\colorbox{DarkOliveGreen1}{Les participes passés s'accordent en genre et en nombre avec le sujet}\\
+
+_Avec l'auxiliaire avoir_\\
+
+\colorbox{DarkOliveGreen1}{Les participes passés s'accordent en genre et en nombre avec le complément d'objet direct,}\\
+\colorbox{DarkOliveGreen1}{si celui-ci est placé avant le verbe}\\
+
+Sinon, ils sont \colorbox{DarkSeaGreen3}{invariables}\\
+
+\colorbox{DarkSeaGreen3}{En aucun cas, ils ne s'accordent avec le sujet}\\
+
+*Pas de panique, c'est en fait simple :*\\
+
+Auxiliaire être
+
+#+BEGIN_QUOTE
+/Il est tombé/\\
+/Ils sont tombés/\\
+/Elles sont tombées/
+#+END_QUOTE
+
+Auxiliaire avoir - COD \fcolorbox{DarkSeaGreen3}{DarkSeaGreen1}{après} le verbe
+
+#+BEGIN_QUOTE
+/Il a pris un verre/\\
+/Il a pris une pomme/\\
+/Il a pris des pommes/
+#+END_QUOTE
+
+Auxiliaire avoir - COD \fcolorbox{DarkSeaGreen3}{DarkSeaGreen1}{avant} le verbe
+
+#+BEGIN_QUOTE
+/Il l'a pris/ (= le verre)\\
+/Il l'a prise/ (= la pomme)\\
+/Il les a prises/ (= les pommes)
+#+END_QUOTE
+
+
+** « Nous » et « on »
+
+« On », techniquement, est un équivalent de l'anglais « it »
+
+#+BEGIN_QUOTE
+/On dit souvent que.../
+#+END_QUOTE
+
+Mais dans le langage courant, il est utilisé à la place de « nous »
+
+#+BEGIN_QUOTE
+/On y va/ (= nous y allons)\\
+/On arrive !/ (= nous arrivons !)
+#+END_QUOTE
+
+Ceci est cependant à éviter à l'écrit, à moins que l'on veuille donner au texte une connotation familière.
+
+
+** Articles définis et indéfinis
+
+*** Forme
+
+**** Définis
+\mbox{} \\
+
+| français : | le/la | les |
+|------------+-------+-----|
+| anglais :  | the   | the |
+
+#+BEGIN_QUOTE
+/le chat / les chats/\\
+/the cat / the cats/
+#+END_QUOTE
+
+
+**** Indéfinis
+\mbox{} \\
+
+| français : | un/une | des       |
+|------------+--------+-----------|
+| anglais :  | a      | \emptyset |
+
+#+BEGIN_QUOTE
+/un chat / des chats/\\
+/a cat / cats/
+#+END_QUOTE
+
+
+*** Usage
+
+**** Définis
+\mbox{} \\
+
+On sait exactement de quel individu/chose il s'agit. On pourrait le montrer du doigt. Le nom est \colorbox{LightSteelBlue2}{défini}
+
+#+BEGIN_QUOTE
+/Le chat de mon voisin/ \\
+\rightarrow ceci suppose que mon voisin n'a qu'un chat et que, du coup, on sait exactement de quel chat il s'agit\\
+
+/La Terre est ronde/ \\
+\rightarrow il n'y en a qu'une, donc on sait de laquelle il s'agit\\
+
+/La lune/ \\
+\rightarrow on suppose qu'il s'agit de notre lune, celle qui tourne autour de la terre, et que donc on sait de laquelle il s'agit\\
+#+END_QUOTE
+
+
+**** Indéfinis
+\mbox{} \\
+
+On ne sait pas de quel individu/chose il s'agit. Le nom est \colorbox{LightSteelBlue2}{indéfini}
+
+#+BEGIN_QUOTE
+/J'ai vu un chat noir ce matin/ \\
+\rightarrow on ne sait pas de quel chat noir il s'agit. L'information « noir » ne suffit pas à définir l'individu particulier dont il est question\\
+
+/Un chat de mon voisin/ \\
+\rightarrow ici, cela suppose que mon voisin a plusieurs chats et du coup, on ne sait pas de quel individu il est question. Comparer ceci avec l'exemple précédant\\
+
+/Une lune/ \\
+\rightarrow ici, on fait référence à un satellite naturel, par exemple une lune de Saturne. On ne sait donc pas de quelle lune il s'agit
+#+END_QUOTE
+
+
+_C'est en fait très similaire à l'anglais. Réfléchissez à ce que vous diriez en anglais_
+
+
+** Adverbes
+
+1. Invariables
+2. Généralement formés à partir d'adjectifs + « ment »
+
+#+BEGIN_QUOTE
+/grand \rightarrow grandement/
+#+END_QUOTE
+
+* Structure de texte : vocabulaire
+
+** Énumérer
+
+*** Commencer
+
+#+BEGIN_CENTER
+/Premièrement/\\
+/D’abord/\\
+/Tout d'abord/\\
+/Au début/\\
+/Pour commencer/
+#+END_CENTER
+
+
+*** Continuer
+
+ | _Chronologiquement_ |   |   |   |   |   |   |   | _En ajoutant_  |
+ | /Deuxièmement/      |   |   |   |   |   |   |   | /De plus/      |
+ | /Ensuite/           |   |   |   |   |   |   |   | /Ajoutons que/ |
+ | /Puis/              |   |   |   |   |   |   |   | /En outre/     |
+ | /Après/             |   |   |   |   |   |   |   | /Par ailleurs/ |
+ |                   |   |   |   |   |   |   |   | /Aussi/        |
+ |                   |   |   |   |   |   |   |   | /Également/    |
+
+
+*** Finir
+
+#+BEGIN_CENTER
+/Enfin/\\
+/Finalement/\\
+/Pour finir/\\
+/Pour terminer/\\
+/Pour conclure/\\
+/En conclusion/
+#+END_CENTER
+
+
+** Contraster/comparer
+
+*** Similarités
+
+#+BEGIN_CENTER
+/De la même manière/\\
+/De la même façon/\\
+/Similairement/
+#+END_CENTER
+
+
+*** Différences
+
+#+BEGIN_CENTER
+/En revanche/\\
+/Au contraire/\\
+/Alors que/\\
+/Pourtant/\\
+/D'autre part/\\
+/D'un autre côté/\\
+/Par ailleurs/
+#+END_CENTER
+
+
+** Causalité
+
+#+BEGIN_CENTER
+/Du coup/\\
+/En conséquence/\\
+/Par conséquent/\\
+/Il en résulte que/\\
+/De ce fait/\\
+/Donc/\\
+/Ainsi/\\
+/C'est pourquoi/
+#+END_CENTER
+
+* Comment construire une dissertation en français ?
+
+\nbsp /Veuillez noter que ceci ne représente que mon opinion personnelle. Les consignes que vous recevez de vos professeurs sont sans aucun doute plus importantes que les conseils que je présente ici. Si vous avez des doutes, la meilleure chose à faire est toujours de discuter avec le professeur afin d'éliminer toute confusion quant à ses attentes. Il se peut que votre professeur ait une vision différente de la mienne sur la structure d'une dissertation. Il n'y a, de toute façon, aucune règle absolue et ceci ne représente qu'une façon, parmi beaucoup d'autres, de construire un plan./
+
+
+** Commencer par faire un plan
+
+\nbsp Ne vous embarquez pas dans l'écriture avant d'avoir un plan ! Si vous vous lancez dans l'écriture en aveugle, vous allez perdre énormément de temps à rédiger des choses qui ne fonctionneront probablement pas et que vous devrez réécrire. Assurez vous d'avoir un plan solide avant de commencer à rédiger des phrases. Pour construire ce squelette, des tirets avec vos idées suffisent.
+
+
+** Le sablier
+
+\nbsp Pour structurer votre plan, imaginez un sablier
+
+#+ATTR_LATEX: :height 0.25\textheight
+[[./Sablier.png]]
+
+
++ \colorbox{LightSteelBlue1}{L'introduction}, en bleu dans le sablier, commence large et se réduit petit à petit.\\
+
+  Elle peut se construire en trois sous-parties :
+    1. Une introduction du thème qui se veut très ouverte. Vous voulez intéresser un public large. Si vous commencez directement sur le sujet étroit et spécifique de votre dissertation, peu de gens n'auront envie de la lire vu que peu de gens ont un intérêt pour un sujet très pointu.
+    2. Dans une deuxième sous-partie, vous emmenez le lecteur peu à peu vers le sujet de votre dissertation. La problématique se resserre.
+    3. Finalement, dans une troisième partie, vous présentez votre plan. Après avoir lu cette sous-partie, le lecteur doit savoir ce qui l'attend.
+
++ \colorbox{Goldenrod1}{Le corps de votre dissertation}, en orange dans le sablier, reste ciblé sur votre sujet.\\
+
+  Il comporte deux à quatre parties (souvent trois). C'est là que vous présentez votre analyse. Chaque partie représentant un aspect ou un point différent.
+
++ \colorbox{DarkOliveGreen2}{La conclusion}, en vert dans le sablier, commence étroite et s'élargit peu à peu.\\
+
+  Vous ne voulez pas laisser le lecteur avec cette vue très pointue d'un sujet. Vous voulez élargir vers une problématique plus large. Là aussi, trois sous-parties est assez classique :
+    1. Une première sous-partie qui conclut votre dissertation,
+    2. Un élargissement de la problématique,
+    3. Une troisième sous-partie peut comporter des questions laissées ouvertes.
+
+
+** Dans quel ordre rédiger tout ça ?
+
+\nbsp Vous avez votre plan et vous en êtes content. Maintenant, il est temps de commencer à rédiger... mais dans quel ordre ? La question peut vous surprendre vu que la plupart des gens commencent... par l'introduction. Erreur ! L'introduction est probablement la partie la plus difficile à écrire. Il est beaucoup plus facile de commencer par le corps de la dissertation car c'est vraiment votre sujet. A partir de là, vous pourrez assez facilement écrire la conclusion. Et finalement, à la fin, après avoir passé tout ce temps avec votre dissertation, vous serez en bien meilleure position pour attaquer cette fameuse introduction qui est si difficile.
+
+
+** L'aspect visuel : paragraphes et alinéas
+
+\nbsp Séparez les grandes parties (introduction, corps de la dissertation et conclusion) en sautant une ligne. Les différentes parties du corps central de votre dissertation peuvent aussi être séparées par une ligne blanche.\\
+\nbsp Chaque partie et sous-partie commence typiquement par un alinéa (« indent » en anglais).\\
+\nbsp De cette façon, le lecteur peut, avant même de commencer à lire, voir la structure de votre dissertation.
+
+
+** Équilibre entre les parties
+
+\nbsp Les deux à quatre parties du corps de votre dissertation doivent être équilibrées : vous ne voulez pas avoir une partie de plusieurs pages et une autre de quelques lignes. Si tel est le cas, essayez de structurer vos idées différemment en fusionnant certaines parties entre elles ou en revisitant votre plan.
+
+
+** Les transitions
+
+\nbsp Il est classique de lier les différentes parties ou sous-parties les unes avec les autres grâce à des phrases de transition qui mettent en évidence la cohésion logique de l'ensemble. Vous ne voulez pas que votre essai ressemble à une juxtaposition d'idées sans rapport les unes avec les autres.
+
+
+** Citer des sources
+
+\nbsp En français, comme en anglais, il est important de citer vos sources. Le site de la bibliothèque de SFU a de nombreuses ressources sur le format à suivre :\\
+
+http://www.lib.sfu.ca/help/cite-write/citation-style-guides/apa
+
+* Outil utile : comment faire les caractères français sur n'importe quel clavier ?
+
+\nbsp La méthode la plus simple est d'utiliser le clavier international américain. Je n'explique pas ici comment l'activer car cela dépend de votre système d'exploitation (OS), mais les instructions sont très simples et disponibles partout sur internet. Une fois activé, le clavier international transforme :\\
+
+ | '' \rightarrow ' |   |   | `a \rightarrow à |   |   | ^^ \rightarrow ^ |   |   | "" \rightarrow " |
+ | 'e \rightarrow é |   |   | `e \rightarrow è |   |   | ^a \rightarrow â |   |   | "e \rightarrow ë |
+ | 'c \rightarrow ç |   |   | `u \rightarrow ù |   |   | ^e \rightarrow ê |   |   | "i \rightarrow ï |
+ |                  |   |   |                  |   |   | ^i \rightarrow î |   |   | "u \rightarrow ü |
+ |                  |   |   |                  |   |   | ^o \rightarrow ô |   |   | "y \rightarrow ÿ |
+ |                  |   |   |                  |   |   | ^u \rightarrow û |   |   |                  |
+  
+* Où trouver de l'aide en français ?
+
+** A SFU : le Student Learning Commons
+
+\nbsp Le Student Learning Commons offre depuis l'année dernière deux services pour les étudiants écrivant en français :\\
+\ast des consultations particulières hebdomadaires\\
+\ast des ateliers
+
+
+*** Consultations particulières
+
+\nbsp Des consultations particulières hebdomadaires sont disponibles. Prenez rendez-vous sur le site du Student Learning Commons :\\
+
+http://www.lib.sfu.ca/about/branches-depts/slc/writing
+
+
+*** Ateliers
+
+\nbsp Des ateliers d'écriture en français sont organisés régulièrement. Regardez le programme sur le site du Student Learning Commons :\\
+
+http://www.lib.sfu.ca/about/branches-depts/slc/offer/slc-workshops/writing\\
+
+\nbsp Si vous avez des suggestions de nouveaux ateliers d'écriture en français qui vous seraient utiles, n'hésitez pas à nous en faire part en écrivant à l'adresse mail : mailto:learning-commons@sfu.ca
+
+
+** Sur internet : sites utiles
+
+*** Dictionnaires
+
+**** Français
+\mbox{} \\
+
+Le meilleur dictionnaire de français en ligne ! Une ressource vraiment excellente.\\
+http://www.cnrtl.fr/definition/
+
+
+**** Français/anglais
+\mbox{} \\
+
+http://www.wordreference.com/
+
+
+*** Conjugaison
+
+Un bon site de conjugaison :\\
+http://leconjugueur.lefigaro.fr/php5/index.php?v
+
+
+*** Plagiat
+
+\nbsp Toutes les règles que vous avez apprises sur le plagiat dans vos travaux en anglais s'appliquent également en français. Le plagiat est un sujet sérieux que SFU traite avec beaucoup d'attention et si vous n'êtes pas sûrs des règles, je vous encourage vivement à vous familiariser avec elles en lisant les sites suivants. Pour SFU, l'ignorance n'est pas une excuse...\\
+
+http://www.lib.sfu.ca/help/academic-integrity/plagiarism
+
+http://www.lib.sfu.ca/help/academic-integrity/plagiarism-tutorial
+
+https://www.sfu.ca/students/academicintegrity/resources/academichonestyguide.html
+
+http://www.sfu.ca/~smith/plagiarism.html
+
+https://www.sfu.ca/biology/academic-honesty.html
+
+* Comment s'immerger d'avantage dans le français ?
+
+** Rencontrer des gens pour parler français
+
+*** Meetup français
+
+Vancouver French Langage Meetup\\
+http://www.meetup.com/Vancouver-French-Meetup/
+
+
+*** Le Centre Culturel Francophone de Vancouver
+
+http://www.lecentreculturel.com/en
+
+
+*** App
+
+ Hello Talk\\
+ http://www.hellotalk.com/#en
+
+
+** Écouter du français : podcasts (« baladodiffusion » au Canada)
+
+*** Histoire et culture
+
+Radio Canada : Aujourd'hui l'histoire\\
+http://ici.radio-canada.ca/emissions/aujourd_hui_l_histoire/2016-2017/\\
+
+France Culture : Les nuits de France Culture\\
+http://www.franceculture.fr/emissions/les-nuits-de-france-culture
+
+
+
+*** Infos (« Informations » en France ou « Nouvelles » au Canada)
+
+France Inter : Le journal de 18h\\
+https://www.franceinter.fr/emissions/le-journal-de-18h\\
+
+Radio Canada : Midi info\\
+http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/midiinfo
+
+
+*** Sciences et technologie
+
+France Culture : La marche des sciences\\
+https://www.franceculture.fr/emissions/la-marche-des-sciences\\
+
+Radio Canada : Les années lumières\\
+http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/lumiere
+
+
+** Voir/regarder du français
+
+*** Théâtre en français
+
+Théâtre la Seizième\\
+http://seizieme.ca/
+
+
+*** Internet
+
+Nombreuses options pour voir des films, apprendre de nouveaux mots, améliorer sa prononciation, apprendre à conjuguer...
+
+
+*** Films
+
+De nombreux films français sont disponibles gratuitement dans les bibliothèques publiques et de SFU :\\
+
+\nbsp \rightarrow  SFU movie collection
+
+\nbsp \rightarrow  Vancouver Public Library
+
+\nbsp \rightarrow  Burnaby Public Library
