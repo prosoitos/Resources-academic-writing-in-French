@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-06-27 Tue 16:46 -->
+<!-- 2018-03-25 Sun 19:30 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Resources for Academic Writing in French</title>
+<title>Resources for<br>Academic Writing in French</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Marie-Hélène Burle" />
 <style type="text/css">
@@ -68,6 +68,7 @@
   pre.src-fortran:before { content: 'Fortran'; }
   pre.src-gnuplot:before { content: 'gnuplot'; }
   pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
   pre.src-java:before { content: 'Java'; }
   pre.src-js:before { content: 'Javascript'; }
   pre.src-latex:before { content: 'LaTeX'; }
@@ -184,7 +185,7 @@
 @media all
 {
 /* @import url(http://fonts.googleapis.com/css?family=Inconsolata); */
-/* @import url(http://fonts.googleapis.com/css?family=PT+Sans); */
+/* @import url(http://fonts.googleapis.com/css?family=Open Sans Condensed Light); */
 /* @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700); */
 article,
 aside,
@@ -213,8 +214,8 @@ audio:not([controls]) {
 }
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 95%;
+  -ms-text-size-adjust: 95%;
 }
 body {
   margin: 0;
@@ -225,9 +226,6 @@ a:focus {
 a:active,
 a:hover {
   outline: 0;
-}
-h1 {
-  font-size: 2em;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -250,7 +248,8 @@ samp {
   font-family: monospace, serif;
   font-size: 1em;
 }
-pre {
+pre,
+code {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
@@ -343,11 +342,12 @@ table {
   border-spacing: 0;
 }
 html {
-  font-family: 'Open Sans Regular', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 110%;
 }
 pre,
 code {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
 }
 h1,
 h2,
@@ -355,25 +355,47 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans Condensed Light', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
+}
+h1 {
+  line-height: 60px;
+}
+h2 {
+  line-height: 35px;
+}
+h3 {
+  line-height: 32px;
+}
+h4 {
+  line-height: 30px;
+}
+h5 {
+  line-height: 28px;
+}
+h6 {
+  line-height: 26px;
 }
 html {
   background-color: #eee8d5;
   color: #242b2f;
   margin: 1em;
+  line-height: 24px;
 }
 body {
   background-color: #faf9f1;
   margin: 0 auto;
-  max-width: 23cm;
-  border: 1pt solid #93a1a1;
+  max-width: 22cm;
+  /* border: 1pt solid #93a1a1; */
+  /* border: 1pt solid #d9d9d9; */
+  border: 1pt solid #c9cfcf;
+  border-radius: 10px;
   padding: 1em;
 }
-code {
-  background-color: #eee8d5;
-  padding: 2px;
-}
+/* code { */
+/*   background-color: #eee8d5; */
+/*   padding: 2px; */
+/* } */
 a {
   color: #b58900;
 }
@@ -390,42 +412,91 @@ h2 {
   color: #094043;
 }
 h3 {
-  color: #128187;
+  color: #0f6b70;
 }
 h4 {
-  color: #9d9d15;
-}
-h5,
-h6 {
-  color: #313f46;
-}
-pre {
-  background-color: #ffffff;
-  color: #000000;
-  border: 1pt solid #93a1a1;
-  padding: 1em;
-  box-shadow: 5pt 5pt 8pt #eee8d5;
-}
-pre code {
-  background-color: #faf9f1;
-}
-h1 {
-  font-size: 2.6em;
-}
-h2 {
-  font-size: 1.5em;
-}
-h3 {
-  font-size: 1.4em;
-}
-h4 {
-  font-size: 1.2em;
+  color: #13866c;
 }
 h5 {
-  font-size: 0.9em;
+  color: #528d25;
 }
 h6 {
-  font-size: 1.1em;
+  color: #9d9d15;
+}
+pre {
+  background-color: #f1f1f1;
+  color: #262626;
+  padding: 0.8em;
+  font-family: 'Inconsolata';
+  font-size: 95%;
+  line-height: 22px;
+  border: 1pt solid #d9d9d9;
+  border-radius: 5px;
+  box-shadow: 0pt 0pt 0pt #eee8d5;
+  /* letter-spacing: 1.1px; */
+}
+code {
+  background-color: #f1f1f1;
+  color: #262626;
+  padding: 0.1em;
+  font-family: 'Inconsolata';
+  font-size: 95%;
+  line-height: 22px;
+  border: 0.5pt solid #d9d9d9;
+  /* border-radius: 5px; */
+  box-shadow: 0pt 0pt 0pt #eee8d5;
+  /* letter-spacing: 1.1px; */
+}
+.org-ess-numbers {
+    color: #e28200;
+}
+.org-comment-delimiter {
+    color: #8c8c8c;
+}
+.org-comment {
+    color: #8c8c8c;
+}
+.org-string {
+    color: #013b6d;
+}
+.org-ess-function-call {
+    color: #bf4040;
+    font-weight: bolder;
+}
+.org-ess-operator {
+    color: #0b5e56;
+}
+.org-ess-assignment {
+    color: #0b5e56;
+}
+.org-ess-paren {
+    color: #0b5e56;
+}
+.org-ess-XopX {
+    color: #0b5e56;
+}
+/* pre, */
+/* code { */
+/*   background-color: #faf9f1; */
+/* } */
+h1 {
+  font-size: 2.7em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.6em;
+}
+h4 {
+  font-size: 1.4em;
+}
+h5 {
+  font-size: 1.3em;
+}
+h6 {
+  font-size: 1.2em;
 }
 .tag {
   background-color: #eee8d5;
@@ -510,13 +581,15 @@ h6 {
     max-height: 80%;
     overflow: auto; }
     #table-of-contents h2 {
-      font-size: 10pt;
-      max-width: 8em;
-      font-weight: normal;
-      padding-left: 0.5em;
-      padding-left: 0.5em;
-      padding-top: 0.05em;
-      padding-bottom: 0.05em; }
+      font-size: 12pt;
+      max-width: 25em;
+      font-weight: bold;
+      color: #242b2f;
+      padding-right: 0.3em;
+      padding-left: 0.8em;
+      padding-top: 0em;
+      padding-bottom: 0em;
+      text-align: left;}
     #table-of-contents #text-table-of-contents {
       display: none;
       text-align: left; }
@@ -524,7 +597,7 @@ h6 {
       display: block;
       padding: 0.5em;
       margin-top: -1.5em; }
-    
+
   .rss_box {}
   .rss_title, rss_title a {}
   .rss_items {}
@@ -551,7 +624,7 @@ h6 {
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2017 Free Software Foundation, Inc.
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -594,154 +667,158 @@ for the JavaScript code in this tag.
 </script>
 </head>
 <body>
+<div id="preamble" class="status">
+&nbsp;<b>Marie-Hélène Burle</b><br>&nbsp;March 25, 2018<hr size="1" width="210" align="left" noshade>
+</div>
 <div id="content">
-<h1 class="title">Resources for Academic Writing in French</h1>
+<h1 class="title">Resources for<br>Academic Writing in French</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org319daf5">1. Purpose of this document</a></li>
-<li><a href="#org1581e85">2. Orthographe et typographie</a>
+<li><a href="#org07f33dd">1. Purpose of this document</a></li>
+<li><a href="#orgfea9cb3">2. Orthographe et typographie</a>
 <ul>
-<li><a href="#org9cebf0d">2.1. Différences à connaître entre le français et l'anglais</a>
+<li><a href="#orgf937fce">2.1. Différences à connaître entre le français et l'anglais</a>
 <ul>
-<li><a href="#orge8f9cb1">2.1.1. Majuscules</a></li>
-<li><a href="#org2b2a50c">2.1.2. Ponctuation</a></li>
-<li><a href="#org5e124e2">2.1.3. « et » et la virgule</a></li>
+<li><a href="#orgb8db7ae">2.1.1. Majuscules</a></li>
+<li><a href="#orgd7f35ef">2.1.2. Ponctuation</a></li>
+<li><a href="#orge00cf38">2.1.3. « et » et la virgule</a></li>
 </ul>
 </li>
-<li><a href="#orgbc54770">2.2. Utiliser le féminin pour trouver l'orthographe des noms, adjectifs et participes passés</a></li>
+<li><a href="#org5b61883">2.2. Utiliser le féminin pour trouver l'orthographe des noms, adjectifs et participes passés</a></li>
 </ul>
 </li>
-<li><a href="#org7311276">3. Grammaire</a>
+<li><a href="#org80fa4c1">3. Grammaire</a>
 <ul>
-<li><a href="#org3d07c4d">3.1. Voix active/passive</a>
+<li><a href="#org40f12e6">3.1. Voix active/passive</a>
 <ul>
-<li><a href="#orgbda9817">3.1.1. Définition</a></li>
-<li><a href="#org201730e">3.1.2. Formation</a></li>
-<li><a href="#org7539d9a">3.1.3. Écrivez à l'actif !</a></li>
+<li><a href="#orgf669525">3.1.1. Définition</a></li>
+<li><a href="#org38e4ec8">3.1.2. Formation</a></li>
+<li><a href="#org86549f8">3.1.3. Écrivez à l'actif !</a></li>
 </ul>
 </li>
-<li><a href="#orgfda22ab">3.2. Règles d'accord</a>
+<li><a href="#org9506d1e">3.2. Règles d'accord</a>
 <ul>
-<li><a href="#orgb5e7953">3.2.1. Les adjectifs</a></li>
-<li><a href="#org5f88950">3.2.2. Les participes passés</a></li>
+<li><a href="#org56d978d">3.2.1. Les adjectifs</a></li>
+<li><a href="#orgbab53f6">3.2.2. Les participes passés</a></li>
 </ul>
 </li>
-<li><a href="#org0f76790">3.3. « Nous » et « on »</a></li>
-<li><a href="#org4eacda9">3.4. Articles définis et indéfinis</a>
+<li><a href="#org433403b">3.3. « Nous » et « on »</a></li>
+<li><a href="#orgf70d3c3">3.4. Articles définis et indéfinis</a>
 <ul>
-<li><a href="#org37169e2">3.4.1. Forme</a></li>
-<li><a href="#org0f62301">3.4.2. Usage</a></li>
+<li><a href="#org417fd56">3.4.1. Forme</a></li>
+<li><a href="#org1a0c908">3.4.2. Usage</a></li>
 </ul>
 </li>
-<li><a href="#org56b1869">3.5. Adverbes</a></li>
+<li><a href="#org067537d">3.5. Adverbes</a></li>
 </ul>
 </li>
-<li><a href="#orgfaf4184">4. Conjugaison</a>
+<li><a href="#orgd3c09ee">4. Conjugaison</a>
 <ul>
-<li><a href="#org51891e6">4.1. Formation : une bonne référence</a></li>
-<li><a href="#org8380039">4.2. Modes et Temps</a>
+<li><a href="#org06d4299">4.1. Conjuguer</a></li>
+<li><a href="#org8976ae9">4.2. Modes et Temps</a>
 <ul>
-<li><a href="#orgdbf81b3">4.2.1. Définitions</a></li>
-<li><a href="#orge307f5f">4.2.2. Modes</a></li>
-<li><a href="#orgd047543">4.2.3. Les temps de l'indicatif</a></li>
+<li><a href="#org966b65c">4.2.1. Définitions</a></li>
+<li><a href="#orga50ca60">4.2.2. Modes</a></li>
+<li><a href="#orgfc3ef2e">4.2.3. Les temps de l'indicatif</a></li>
 </ul>
 </li>
-<li><a href="#orgff8dace">4.3. Choisir le temps du verbe à l'indicatif</a>
+<li><a href="#org7dfcbdb">4.3. Choisir le temps du verbe à l'indicatif</a>
 <ul>
-<li><a href="#org2163383">4.3.1. Le présent</a></li>
-<li><a href="#orge728cf0">4.3.2. Les temps du passé</a></li>
-<li><a href="#org8ff7371">4.3.3. Les temps du futur</a></li>
+<li><a href="#org00b3eb8">4.3.1. Le présent</a></li>
+<li><a href="#org72da773">4.3.2. Les temps du passé</a></li>
+<li><a href="#org0d6308c">4.3.3. Les temps du futur</a></li>
 </ul>
 </li>
-<li><a href="#org66a4175">4.4. Exercices</a>
+<li><a href="#org53c9c57">4.4. Exercices</a>
 <ul>
-<li><a href="#org8b7ec02">4.4.1. Conjuguer les verbes aux temps appropriés</a></li>
-<li><a href="#org45a3bab">4.4.2. Déterminer le temps de tous les verbes et expliquer leur emploi</a></li>
+<li><a href="#org0927e5f">4.4.1. Conjuguer les verbes aux temps appropriés</a></li>
+<li><a href="#orgaf1514f">4.4.2. Déterminer le temps de tous les verbes et expliquer leur emploi</a></li>
 </ul>
 </li>
-<li><a href="#org55058c8">4.5. Concordance des temps à l'indicatif</a>
+<li><a href="#orgefd4eec">4.5. Concordance des temps à l'indicatif</a>
 <ul>
-<li><a href="#orgfde67ee">4.5.1. Définition</a></li>
-<li><a href="#org2c6368f">4.5.2. Si les faits exprimés par les propositions principale et subordonnée se situent au même moment dans le temps</a></li>
-<li><a href="#orgacb632b">4.5.3. Les faits exprimés par les propositions principale et subordonnée ne se situent pas forcément au même moment dans le temps</a></li>
+<li><a href="#org52270eb">4.5.1. Définition</a></li>
+<li><a href="#orgcf5109e">4.5.2. Si les faits exprimés par les propositions principale et subordonnée se situent au même moment dans le temps</a></li>
+<li><a href="#orgd2522e3">4.5.3. Les faits exprimés par les propositions principale et subordonnée ne se situent pas forcément au même moment dans le temps</a></li>
 </ul>
 </li>
-<li><a href="#org954a532">4.6. Exercices</a>
+<li><a href="#org0d93815">4.6. Exercices</a>
 <ul>
-<li><a href="#org2e172df">4.6.1. Conjuguer les verbes aux temps appropriés</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#orgecf5699">5. Structure de texte : vocabulaire</a>
-<ul>
-<li><a href="#org18be1f4">5.1. Énumérer</a>
-<ul>
-<li><a href="#orgab49d41">5.1.1. Commencer</a></li>
-<li><a href="#org256fa7d">5.1.2. Continuer</a></li>
-<li><a href="#org4173cc3">5.1.3. Finir</a></li>
-</ul>
-</li>
-<li><a href="#org1051405">5.2. Contraster/comparer</a>
-<ul>
-<li><a href="#orgc9dba3c">5.2.1. Similarités</a></li>
-<li><a href="#orgffdb11f">5.2.2. Différences</a></li>
-</ul>
-</li>
-<li><a href="#org5328727">5.3. Causalité</a></li>
-</ul>
-</li>
-<li><a href="#orga81d4fb">6. Construire une dissertation en français</a>
-<ul>
-<li><a href="#orgb36c80b">6.1. Commencer par faire un plan</a></li>
-<li><a href="#org339b53d">6.2. Le sablier</a></li>
-<li><a href="#orgade1336">6.3. Dans quel ordre rédiger tout ça ?</a></li>
-<li><a href="#orge97b70c">6.4. L'aspect visuel : paragraphes et alinéas</a></li>
-<li><a href="#orgf3d82c9">6.5. Équilibre entre les parties</a></li>
-<li><a href="#orgfdd977c">6.6. Les transitions</a></li>
-<li><a href="#org814e405">6.7. Citer des sources</a></li>
-</ul>
-</li>
-<li><a href="#org9502968">7. Outil utile : comment faire les caractères français sur n'importe quel clavier ?</a>
-<ul>
-<li><a href="#orga42b71e">7.1. A SFU : le Student Learning Commons</a>
-<ul>
-<li><a href="#org877a861">7.1.1. Consultations particulières</a></li>
-<li><a href="#org217fe6e">7.1.2. Ateliers</a></li>
-</ul>
-</li>
-<li><a href="#org0a94abb">7.2. Sur internet : sites utiles</a>
-<ul>
-<li><a href="#org54ae86d">7.2.1. Dictionnaires</a></li>
-<li><a href="#org3310a64">7.2.2. Conjugaison</a></li>
-<li><a href="#orga2af102">7.2.3. Plagiat</a></li>
+<li><a href="#org6618e6f">4.6.1. Conjuguer les verbes aux temps appropriés</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgc485f6b">8. S'immerger d'avantage dans le français</a>
+<li><a href="#org483c989">5. Structure de texte : vocabulaire</a>
 <ul>
-<li><a href="#orgd63540e">8.1. Rencontrer des gens pour parler français</a>
+<li><a href="#orgfd030f1">5.1. Énumérer</a>
 <ul>
-<li><a href="#orgd593f73">8.1.1. Meetup français</a></li>
-<li><a href="#org7324e54">8.1.2. Le Centre Culturel Francophone de Vancouver</a></li>
-<li><a href="#org4caf5f4">8.1.3. App</a></li>
+<li><a href="#org7a304ee">5.1.1. Commencer</a></li>
+<li><a href="#org9312dfd">5.1.2. Continuer</a></li>
+<li><a href="#org43bfa65">5.1.3. Finir</a></li>
 </ul>
 </li>
-<li><a href="#org1c1604a">8.2. Écouter du français : podcasts (ou « baladodiffusion »)</a>
+<li><a href="#org924e87c">5.2. Contraster/comparer</a>
 <ul>
-<li><a href="#org23df36a">8.2.1. Histoire et culture</a></li>
-<li><a href="#org7f5cdd0">8.2.2. Infos (« Informations » en France ou « Nouvelles » au Canada)</a></li>
-<li><a href="#orge77919b">8.2.3. Sciences et technologie</a></li>
+<li><a href="#orgfb4cada">5.2.1. Similarités</a></li>
+<li><a href="#org72ceb75">5.2.2. Différences</a></li>
 </ul>
 </li>
-<li><a href="#orgd531fe2">8.3. Voir/regarder du français</a>
+<li><a href="#org3b89c2b">5.3. Causalité</a></li>
+</ul>
+</li>
+<li><a href="#orgb60562d">6. Construire une dissertation en français</a>
 <ul>
-<li><a href="#org2c7148f">8.3.1. Théâtre en français</a></li>
-<li><a href="#org1af2db8">8.3.2. Internet</a></li>
-<li><a href="#org3904d18">8.3.3. Films</a></li>
+<li><a href="#org202d566">6.1. Commencer par faire un plan</a></li>
+<li><a href="#org458d327">6.2. Le sablier</a></li>
+<li><a href="#orgc2c0b26">6.3. Dans quel ordre rédiger tout ça ?</a></li>
+<li><a href="#org231baae">6.4. L'aspect visuel : paragraphes et alinéas</a></li>
+<li><a href="#org650fc5d">6.5. Équilibre entre les parties</a></li>
+<li><a href="#org5a9e723">6.6. Les transitions</a></li>
+<li><a href="#orgb9c4fbb">6.7. Citer des sources</a></li>
+</ul>
+</li>
+<li><a href="#org5eced20">7. Outil utile : comment faire les caractères français sur n'importe quel clavier ?</a></li>
+<li><a href="#org1219592">8. Où trouver de l'aide en français ?</a>
+<ul>
+<li><a href="#org095b90d">8.1. A SFU : le Student Learning Commons</a>
+<ul>
+<li><a href="#orgf75df9a">8.1.1. Consultations particulières</a></li>
+<li><a href="#org2038c97">8.1.2. Ateliers</a></li>
+</ul>
+</li>
+<li><a href="#org25f3574">8.2. Sur internet : sites utiles</a>
+<ul>
+<li><a href="#org4d4a870">8.2.1. Dictionnaires</a></li>
+<li><a href="#org9eccef3">8.2.2. Conjugaison</a></li>
+<li><a href="#orge052657">8.2.3. Plagiat</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org58e9464">9. S'immerger d'avantage dans le français</a>
+<ul>
+<li><a href="#org84a51bb">9.1. Rencontrer des gens pour parler français</a>
+<ul>
+<li><a href="#org47b92b6">9.1.1. Meetup français</a></li>
+<li><a href="#org6e5f7ef">9.1.2. Le Centre Culturel Francophone de Vancouver</a></li>
+<li><a href="#org3ea64c7">9.1.3. App</a></li>
+</ul>
+</li>
+<li><a href="#org60c1ffd">9.2. Écouter du français : podcasts (ou « baladodiffusion »)</a>
+<ul>
+<li><a href="#org779a990">9.2.1. Histoire et culture</a></li>
+<li><a href="#org1e426f7">9.2.2. Infos (« Informations » en France ou « Nouvelles » au Canada)</a></li>
+<li><a href="#org325d64b">9.2.3. Sciences et technologie</a></li>
+</ul>
+</li>
+<li><a href="#org7edc362">9.3. Voir/regarder du français</a>
+<ul>
+<li><a href="#orgc3f0b5f">9.3.1. Théâtre en français</a></li>
+<li><a href="#orgb2a10ea">9.3.2. Internet</a></li>
+<li><a href="#org57e5a72">9.3.3. Films</a></li>
 </ul>
 </li>
 </ul>
@@ -749,34 +826,12 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div class="outline-2" id="meta">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left"><b>Author</b></td>
-<td class="org-left">Marie-Hélène Burle</td>
-</tr>
-
-<tr>
-<td class="org-left"><b>Date</b></td>
-<td class="org-left">June 27, 2017</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-<div id="outline-container-org319daf5" class="outline-2">
-<h2 id="org319daf5"><span class="section-number-2">1</span> Purpose of this document</h2>
+<div id="outline-container-org07f33dd" class="outline-2">
+<h2 id="org07f33dd"><span class="section-number-2">1</span> Purpose of this document</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-&nbsp; This document offers resources to students writing in French at
+This document offers resources to students writing in French at
 the undergraduate and postgraduate levels. It has been inspired by the
 recurring questions and issues encountered during consultations with
 students at <i>Simon Fraser University's Student Learning Commons</i>. It
@@ -790,28 +845,30 @@ includes:
 <li>Ideas on where to meet French speakers and how to get exposed to the language to improve fluency</li>
 </ol>
 <p>
-&nbsp; The information presented is valid as of April 2017. The rest of this information is written in French since it is destined to people with at least a basic understanding of the language.
+The information presented is valid as of April 2017. The rest of this information is written in French since it is destined to people with at least a basic understanding of the language.
 </p>
-
-<br>
 
 <p>
 <b>This document is available as a printable <a href="./resources.pdf">pdf version</a></b>
-<br />
 </p>
 </div>
 </div>
 
-<div id="outline-container-org1581e85" class="outline-2">
-<h2 id="org1581e85"><span class="section-number-2">2</span> Orthographe et typographie</h2>
+<div id="outline-container-orgfea9cb3" class="outline-2">
+<h2 id="orgfea9cb3"><span class="section-number-2">2</span> Orthographe et typographie</h2>
 <div class="outline-text-2" id="text-2">
-</div><div id="outline-container-org9cebf0d" class="outline-3">
-<h3 id="org9cebf0d"><span class="section-number-3">2.1</span> Différences à connaître entre le français et l'anglais</h3>
+</div>
+<div id="outline-container-orgf937fce" class="outline-3">
+<h3 id="orgf937fce"><span class="section-number-3">2.1</span> Différences à connaître entre le français et l'anglais</h3>
 <div class="outline-text-3" id="text-2-1">
-</div><div id="outline-container-orge8f9cb1" class="outline-4">
-<h4 id="orge8f9cb1"><span class="section-number-4">2.1.1</span> Majuscules</h4>
+</div>
+<div id="outline-container-orgb8db7ae" class="outline-4">
+<h4 id="orgb8db7ae"><span class="section-number-4">2.1.1</span> Majuscules</h4>
 <div class="outline-text-4" id="text-2-1-1">
-</div><ol class="org-ol"><li><a id="org18b4cde"></a>Noms et adjectifs de nationalité<br /><div class="outline-text-5" id="text-2-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org7c6b662"></a>Noms et adjectifs de nationalité<br />
+<div class="outline-text-5" id="text-2-1-1-1">
 <p>
 En anglais, les noms et adjectifs se rapportant aux langues et aux pays prennent toujours des majuscules :
 </p>
@@ -871,12 +928,11 @@ les habitants d'un pays &rarr; <span style="padding: px; color: #00141a; backgro
 <pre class="example">
 Les Français sont tout le temps en grève
 </pre>
-<p>
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="org6a48326"></a>Jours de la semaine et mois<br /><div class="outline-text-5" id="text-2-1-1-2">
+<li><a id="org45b5f8a"></a>Jours de la semaine et mois<br />
+<div class="outline-text-5" id="text-2-1-1-2">
 <p>
 En anglais, les jours de la semaine et les mois prennent des majuscules. Mais pas en français :
 </p>
@@ -886,14 +942,13 @@ Le lundi et le mardi
 Le jeudi 3 mars
 Tous les dimanches de novembre
 </pre>
-<p>
-<br />
-</p>
-</div></li></ol>
+</div>
+</li>
+</ol>
 </div>
 
-<div id="outline-container-org2b2a50c" class="outline-4">
-<h4 id="org2b2a50c"><span class="section-number-4">2.1.2</span> Ponctuation</h4>
+<div id="outline-container-orgd7f35ef" class="outline-4">
+<h4 id="orgd7f35ef"><span class="section-number-4">2.1.2</span> Ponctuation</h4>
 <div class="outline-text-4" id="text-2-1-2">
 <p>
 Contrairement à l'anglais, il faut un espace avant les deux points, le point d'interrogation et le point d'exclamation :
@@ -914,13 +969,12 @@ Il lui dit : « d'accord »
 
 <p>
 Note : un éditeur de texte (par exemple MS Word ou OpenOffice Writer) corrigera tout cela automatiquement si vous le mettez en français.
-<br />
 </p>
 </div>
 </div>
 
-<div id="outline-container-org5e124e2" class="outline-4">
-<h4 id="org5e124e2"><span class="section-number-4">2.1.3</span> « et » et la virgule</h4>
+<div id="outline-container-orge00cf38" class="outline-4">
+<h4 id="orge00cf38"><span class="section-number-4">2.1.3</span> « et » et la virgule</h4>
 <div class="outline-text-4" id="text-2-1-3">
 <p>
 L'usage d'une virgule avec « et » est différent en français et en anglais :
@@ -941,15 +995,12 @@ French, English, and Spanish
 <pre class="example">
 Le français, l'anglais et l'espagnol
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgbc54770" class="outline-3">
-<h3 id="orgbc54770"><span class="section-number-3">2.2</span> Utiliser le féminin pour trouver l'orthographe des noms, adjectifs et participes passés</h3>
+<div id="outline-container-org5b61883" class="outline-3">
+<h3 id="org5b61883"><span class="section-number-3">2.2</span> Utiliser le féminin pour trouver l'orthographe des noms, adjectifs et participes passés</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 Mettre un mot au féminin peut aider à trouver sa terminaison :
@@ -960,21 +1011,20 @@ chat   -&gt;   chatte
 ouvert   -&gt;   ouverte
 remis  -&gt;   remise
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org7311276" class="outline-2">
-<h2 id="org7311276"><span class="section-number-2">3</span> Grammaire</h2>
+<div id="outline-container-org80fa4c1" class="outline-2">
+<h2 id="org80fa4c1"><span class="section-number-2">3</span> Grammaire</h2>
 <div class="outline-text-2" id="text-3">
-</div><div id="outline-container-org3d07c4d" class="outline-3">
-<h3 id="org3d07c4d"><span class="section-number-3">3.1</span> Voix active/passive</h3>
+</div>
+<div id="outline-container-org40f12e6" class="outline-3">
+<h3 id="org40f12e6"><span class="section-number-3">3.1</span> Voix active/passive</h3>
 <div class="outline-text-3" id="text-3-1">
-</div><div id="outline-container-orgbda9817" class="outline-4">
-<h4 id="orgbda9817"><span class="section-number-4">3.1.1</span> Définition</h4>
+</div>
+<div id="outline-container-orgf669525" class="outline-4">
+<h4 id="orgf669525"><span class="section-number-4">3.1.1</span> Définition</h4>
 <div class="outline-text-4" id="text-3-1-1">
 <p>
 <span style="padding: px; color: #00141a; background-color: Coral; border:  px solid">Voix active : le sujet fait l'action</span>
@@ -988,21 +1038,18 @@ remis  -&gt;   remise
 Le complément d'agent fait l'action (voix active)
 
 L'action est faite PAR le complément d'agent (voix passive)
+</pre>
 
-
-
+<pre class="example">
 Notre équipe a réalisé une étude (voix active)
 
 Une étude a été réalisée PAR notre équipe (voix passive)
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-org201730e" class="outline-4">
-<h4 id="org201730e"><span class="section-number-4">3.1.2</span> Formation</h4>
+<div id="outline-container-org38e4ec8" class="outline-4">
+<h4 id="org38e4ec8"><span class="section-number-4">3.1.2</span> Formation</h4>
 <div class="outline-text-4" id="text-3-1-2">
 <p>
 La voix passive se construit avec <span style="padding: px; color: #00141a; background-color: #ffb499; border:  px solid">l'auxilaire être + le participe passé du verbe</span>.
@@ -1023,44 +1070,38 @@ Le lapin est mangé par le loup
 Le lapin a mangé la salade
         (Passé composé de la voix active. Le lapin a mangé la salade hier)
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-org7539d9a" class="outline-4">
-<h4 id="org7539d9a"><span class="section-number-4">3.1.3</span> Écrivez à l'actif !</h4>
+<div id="outline-container-org86549f8" class="outline-4">
+<h4 id="org86549f8"><span class="section-number-4">3.1.3</span> Écrivez à l'actif !</h4>
 <div class="outline-text-4" id="text-3-1-3">
 <p>
-&nbsp; Pendant longtemps, il a été d'usage d'utiliser la voix passive dans les travaux académiques, probablement par modestie. Cette habitude est tombée en désuétude, mais malheureusement les étudiants continuent trop souvent à écrire au passif, rendant les textes tortueux et le style inutilement lourd. Je vous encourage vivement à utiliser la voix active :
+Pendant longtemps, il a été d'usage d'utiliser la voix passive dans les travaux académiques, probablement par modestie. Cette habitude est tombée en désuétude, mais malheureusement les étudiants continuent trop souvent à écrire au passif, rendant les textes tortueux et le style inutilement lourd. Je vous encourage vivement à utiliser la voix active :
 </p>
 <ol class="org-ol">
 <li>la construction est beaucoup plus directe</li>
 <li>il est maintenant d'usage d'annoncer clairement et sans détour que nous sommes l'auteur d'un travail</li>
 </ol>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgfda22ab" class="outline-3">
-<h3 id="orgfda22ab"><span class="section-number-3">3.2</span> Règles d'accord</h3>
+<div id="outline-container-org9506d1e" class="outline-3">
+<h3 id="org9506d1e"><span class="section-number-3">3.2</span> Règles d'accord</h3>
 <div class="outline-text-3" id="text-3-2">
-</div><div id="outline-container-orgb5e7953" class="outline-4">
-<h4 id="orgb5e7953"><span class="section-number-4">3.2.1</span> Les adjectifs</h4>
+</div>
+<div id="outline-container-org56d978d" class="outline-4">
+<h4 id="org56d978d"><span class="section-number-4">3.2.1</span> Les adjectifs</h4>
 <div class="outline-text-4" id="text-3-2-1">
 <p>
 <span style="padding: px; color: #00141a; background-color: #7acc00; border:  px solid">Les adjectifs s'accordent en genre et en nombre avec le nom auquel ils se rapportent</span>
-<br />
 </p>
 </div>
 </div>
 
-<div id="outline-container-org5f88950" class="outline-4">
-<h4 id="org5f88950"><span class="section-number-4">3.2.2</span> Les participes passés</h4>
+<div id="outline-container-orgbab53f6" class="outline-4">
+<h4 id="orgbab53f6"><span class="section-number-4">3.2.2</span> Les participes passés</h4>
 <div class="outline-text-4" id="text-3-2-2">
 <p>
 <span class="underline">Avec l'auxiliaire être</span>
@@ -1119,15 +1160,12 @@ Il l'a pris     ( = le verre)
 Il l'a prise    ( = la pomme)
 Il les a prises ( = les pommes)
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org0f76790" class="outline-3">
-<h3 id="org0f76790"><span class="section-number-3">3.3</span> « Nous » et « on »</h3>
+<div id="outline-container-org433403b" class="outline-3">
+<h3 id="org433403b"><span class="section-number-3">3.3</span> « Nous » et « on »</h3>
 <div class="outline-text-3" id="text-3-3">
 <p>
 « On », techniquement, est un équivalent de l'anglais « it »
@@ -1148,22 +1186,21 @@ On arrive !     ( = nous arrivons !)
 
 <p>
 Ceci est cependant à éviter à l'écrit, à moins que l'on veuille donner au texte une connotation familière.
-<br />
-<br />
 </p>
 </div>
 </div>
 
-<div id="outline-container-org4eacda9" class="outline-3">
-<h3 id="org4eacda9"><span class="section-number-3">3.4</span> Articles définis et indéfinis</h3>
+<div id="outline-container-orgf70d3c3" class="outline-3">
+<h3 id="orgf70d3c3"><span class="section-number-3">3.4</span> Articles définis et indéfinis</h3>
 <div class="outline-text-3" id="text-3-4">
-</div><div id="outline-container-org37169e2" class="outline-4">
-<h4 id="org37169e2"><span class="section-number-4">3.4.1</span> Forme</h4>
+</div>
+<div id="outline-container-org417fd56" class="outline-4">
+<h4 id="org417fd56"><span class="section-number-4">3.4.1</span> Forme</h4>
 <div class="outline-text-4" id="text-3-4-1">
-</div><ol class="org-ol"><li><a id="org40ba0ea"></a>Définis<br /><div class="outline-text-5" id="text-3-4-1-1">
-<p>
-<br />
-</p>
+</div>
+<ol class="org-ol">
+<li><a id="org32de580"></a>Définis<br />
+<div class="outline-text-5" id="text-3-4-1-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -1193,15 +1230,11 @@ Ceci est cependant à éviter à l'écrit, à moins que l'on veuille donner au t
 le chat  -&gt;  les chats
 the cat  -&gt;  the cats
 </pre>
-<p>
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="org2f82f02"></a>Indéfinis<br /><div class="outline-text-5" id="text-3-4-1-2">
-<p>
-<br />
-</p>
+<li><a id="org18a9fb3"></a>Indéfinis<br />
+<div class="outline-text-5" id="text-3-4-1-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -1231,16 +1264,18 @@ the cat  -&gt;  the cats
 un chat  -&gt;  des chats
 a cat    -&gt;  cats
 </pre>
-<p>
-<br />
-</p>
-</div></li></ol>
+</div>
+</li>
+</ol>
 </div>
 
-<div id="outline-container-org0f62301" class="outline-4">
-<h4 id="org0f62301"><span class="section-number-4">3.4.2</span> Usage</h4>
+<div id="outline-container-org1a0c908" class="outline-4">
+<h4 id="org1a0c908"><span class="section-number-4">3.4.2</span> Usage</h4>
 <div class="outline-text-4" id="text-3-4-2">
-</div><ol class="org-ol"><li><a id="orgcc456d6"></a>Définis<br /><div class="outline-text-5" id="text-3-4-2-1">
+</div>
+<ol class="org-ol">
+<li><a id="org5ca3c09"></a>Définis<br />
+<div class="outline-text-5" id="text-3-4-2-1">
 <p>
 On sait exactement de quel individu/chose il s'agit. On pourrait le montrer du doigt. Le nom est <span style="color: #00141a; background-color: #9fabad">défini</span>
 </p>
@@ -1255,12 +1290,11 @@ La Terre est ronde
 La lune
         (On suppose qu'il s'agit de notre lune, celle qui tourne autour de la terre, et que donc on sait de laquelle il s'agit)
 </pre>
-<p>
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="org3da2f9f"></a>Indéfinis<br /><div class="outline-text-5" id="text-3-4-2-2">
+<li><a id="org32bfede"></a>Indéfinis<br />
+<div class="outline-text-5" id="text-3-4-2-2">
 <p>
 On ne sait pas de quel individu/chose il s'agit. Le nom est <span style="color: #00141a; background-color: #9fabad">indéfini</span>
 </p>
@@ -1278,15 +1312,15 @@ Une lune
 
 <p>
 <span class="underline">C'est en fait très similaire à l'anglais. Réfléchissez à ce que vous diriez en anglais</span>
-<br />
-<br />
 </p>
-</div></li></ol>
+</div>
+</li>
+</ol>
 </div>
 </div>
 
-<div id="outline-container-org56b1869" class="outline-3">
-<h3 id="org56b1869"><span class="section-number-3">3.5</span> Adverbes</h3>
+<div id="outline-container-org067537d" class="outline-3">
+<h3 id="org067537d"><span class="section-number-3">3.5</span> Adverbes</h3>
 <div class="outline-text-3" id="text-3-5">
 <ol class="org-ol">
 <li>Invariables</li>
@@ -1296,62 +1330,58 @@ Une lune
 <pre class="example">
 grand    -&gt;    grandement
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgfaf4184" class="outline-2">
-<h2 id="orgfaf4184"><span class="section-number-2">4</span> Conjugaison</h2>
+<div id="outline-container-orgd3c09ee" class="outline-2">
+<h2 id="orgd3c09ee"><span class="section-number-2">4</span> Conjugaison</h2>
 <div class="outline-text-2" id="text-4">
-</div><div id="outline-container-org51891e6" class="outline-3">
-<h3 id="org51891e6"><span class="section-number-3">4.1</span> Formation : une bonne référence</h3>
+</div>
+<div id="outline-container-org06d4299" class="outline-3">
+<h3 id="org06d4299"><span class="section-number-3">4.1</span> Conjuguer</h3>
 <div class="outline-text-3" id="text-4-1">
-<blockquote>
 <p>
-<a href="http://leconjugueur.lefigaro.fr/php5/index.php?v">http://leconjugueur.lefigaro.fr/php5/index.php?v</a>
-</p>
-</blockquote>
-<p>
-<br />
+<a href="http://leconjugueur.lefigaro.fr/php5/index.php?v">Une excellente ressource</a>.
 </p>
 
 <p>
-&nbsp;&nbsp; <i>Mais le plus dur n'est pas de savoir conjuguer, mais de choisir le mode et le temps adéquats&#x2026;</i>
-<br />
-<br />
+<i>Mais le plus dur n'est pas de savoir conjuguer, mais de choisir le mode et le temps adéquats&#x2026;</i>
 </p>
 </div>
 </div>
 
-<div id="outline-container-org8380039" class="outline-3">
-<h3 id="org8380039"><span class="section-number-3">4.2</span> Modes et Temps</h3>
+<div id="outline-container-org8976ae9" class="outline-3">
+<h3 id="org8976ae9"><span class="section-number-3">4.2</span> Modes et Temps</h3>
 <div class="outline-text-3" id="text-4-2">
-</div><div id="outline-container-orgdbf81b3" class="outline-4">
-<h4 id="orgdbf81b3"><span class="section-number-4">4.2.1</span> Définitions</h4>
+</div>
+<div id="outline-container-org966b65c" class="outline-4">
+<h4 id="org966b65c"><span class="section-number-4">4.2.1</span> Définitions</h4>
 <div class="outline-text-4" id="text-4-2-1">
-</div><ol class="org-ol"><li><a id="org9a7aa32"></a>Les modes<br /><div class="outline-text-5" id="text-4-2-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgce78f2b"></a>Les modes<br />
+<div class="outline-text-5" id="text-4-2-1-1">
 <p>
 &thinsp;
 Les modes donnent une <span style="color: #00141a; background-color: #993366">connotation</span> à l'action ou à l'état exprimé par le verbe
-<br />
 </p>
-</div></li>
+</div>
+</li>
 
-<li><a id="org3da7d15"></a>Les temps<br /><div class="outline-text-5" id="text-4-2-1-2">
+<li><a id="org4c27401"></a>Les temps<br />
+<div class="outline-text-5" id="text-4-2-1-2">
 <p>
 &thinsp;
 Les temps apportent une information sur la <span style="color: #00141a; background-color: #993366">temporalité</span> de cette action ou de cet état
-<br />
-<br />
 </p>
-</div></li></ol>
+</div>
+</li>
+</ol>
 </div>
 
-<div id="outline-container-orge307f5f" class="outline-4">
-<h4 id="orge307f5f"><span class="section-number-4">4.2.2</span> Modes</h4>
+<div id="outline-container-orga50ca60" class="outline-4">
+<h4 id="orga50ca60"><span class="section-number-4">4.2.2</span> Modes</h4>
 <div class="outline-text-4" id="text-4-2-2">
 <p>
 <span style="color: #00141a; background-color: #e6e600">L'indicatif</span> est le mode de la réalité
@@ -1360,9 +1390,6 @@ Les temps apportent une information sur la <span style="color: #00141a; backgrou
 <pre class="example">
 S'il fait beau demain, j'irai me promener
 </pre>
-<p>
-<br />
-</p>
 
 <p>
 <span style="color: #00141a; background-color: #e6e600">Le subjonctif</span> est le mode de l'incertitude, du doute, du souhait
@@ -1372,9 +1399,6 @@ S'il fait beau demain, j'irai me promener
 Je ne suis pas sûre qu'il fasse beau demain
 Il est possible que je n' aille pas me promener
 </pre>
-<p>
-<br />
-</p>
 
 <p>
 <span style="color: #00141a; background-color: #e6e600">Le conditionnel</span> est le mode de la politesse, du conseil, de la suggestion, du reproche, du fait imaginaire ou incertain
@@ -1383,14 +1407,11 @@ Il est possible que je n' aille pas me promener
 <pre class="example">
 S'il faisait beau demain, j'irais me promener
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-orgd047543" class="outline-4">
-<h4 id="orgd047543"><span class="section-number-4">4.2.3</span> Les temps de l'indicatif</h4>
+<div id="outline-container-orgfc3ef2e" class="outline-4">
+<h4 id="orgfc3ef2e"><span class="section-number-4">4.2.3</span> Les temps de l'indicatif</h4>
 <div class="outline-text-4" id="text-4-2-3">
 <p>
 <center><b>Vue d'ensemble</b></center>
@@ -1428,91 +1449,87 @@ S'il faisait beau demain, j'irais me promener
 </tr>
 </tbody>
 </table>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgff8dace" class="outline-3">
-<h3 id="orgff8dace"><span class="section-number-3">4.3</span> Choisir le temps du verbe à l'indicatif</h3>
+<div id="outline-container-org7dfcbdb" class="outline-3">
+<h3 id="org7dfcbdb"><span class="section-number-3">4.3</span> Choisir le temps du verbe à l'indicatif</h3>
 <div class="outline-text-3" id="text-4-3">
-</div><div id="outline-container-org2163383" class="outline-4">
-<h4 id="org2163383"><span class="section-number-4">4.3.1</span> Le présent</h4>
+</div>
+<div id="outline-container-org00b3eb8" class="outline-4">
+<h4 id="org00b3eb8"><span class="section-number-4">4.3.1</span> Le présent</h4>
 <div class="outline-text-4" id="text-4-3-1">
-</div><ol class="org-ol"><li><a id="org517892f"></a>Vérité intemporelle<br /><div class="outline-text-5" id="text-4-3-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org66caa5c"></a>Vérité intemporelle<br />
+<div class="outline-text-5" id="text-4-3-1-1">
 <pre class="example">
  La Terre est ronde
 </pre>
-<p>
-&emsp;
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="org08f9844"></a>Fait qui se déroule en ce moment<br /><div class="outline-text-5" id="text-4-3-1-2">
+<li><a id="org3a5c2d4"></a>Fait qui se déroule en ce moment<br />
+<div class="outline-text-5" id="text-4-3-1-2">
 <pre class="example">
 Je donne un atelier de français
 </pre>
-<p>
-&emsp;
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="orgeffa909"></a>Fait qui se poursuit dans le présent<br /><div class="outline-text-5" id="text-4-3-1-3">
+<li><a id="org7cdca39"></a>Fait qui se poursuit dans le présent<br />
+<div class="outline-text-5" id="text-4-3-1-3">
 <pre class="example">
 Ça fait deux heures que j'attends
 </pre>
-<p>
-<br />
-</p>
-</div></li></ol>
+</div>
+</li>
+</ol>
 </div>
 
-<div id="outline-container-orge728cf0" class="outline-4">
-<h4 id="orge728cf0"><span class="section-number-4">4.3.2</span> Les temps du passé</h4>
+<div id="outline-container-org72da773" class="outline-4">
+<h4 id="org72da773"><span class="section-number-4">4.3.2</span> Les temps du passé</h4>
 <div class="outline-text-4" id="text-4-3-2">
-</div><ol class="org-ol"><li><a id="org0b6d9b4"></a>Fait qui dure dans le temps, description ou habitude : <span class="underline">Imparfait</span><br /><div class="outline-text-5" id="text-4-3-2-1">
+</div>
+<ol class="org-ol">
+<li><a id="org7b9f317"></a>Fait qui dure dans le temps, description ou habitude : <span class="underline">Imparfait</span><br />
+<div class="outline-text-5" id="text-4-3-2-1">
 <pre class="example">
 Il était grand et il marchait beaucoup
 </pre>
-<p>
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="orgb7a1727"></a>Fait ponctuel : <span class="underline">Passé simple</span> ou <span class="underline">Passé composé</span><br /><div class="outline-text-5" id="text-4-3-2-2">
+<li><a id="orga5b8a0f"></a>Fait ponctuel : <span class="underline">Passé simple</span> ou <span class="underline">Passé composé</span><br />
+<div class="outline-text-5" id="text-4-3-2-2">
 <pre class="example">
 Il est arrivé à quatre heure
 Il arriva à quatre heure
 </pre>
-<p>
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="orge62c405"></a>Fait antérieur à un autre fait du passé : <span class="underline">Plus-que-parfait</span><br /><div class="outline-text-5" id="text-4-3-2-3">
+<li><a id="orgb2633de"></a>Fait antérieur à un autre fait du passé : <span class="underline">Plus-que-parfait</span><br />
+<div class="outline-text-5" id="text-4-3-2-3">
 <pre class="example">
 Quand je suis arrivée, il était déjà parti
 </pre>
-<p>
-<br />
-</p>
-</div></li></ol>
+</div>
+</li>
+</ol>
 </div>
 
-<div id="outline-container-org8ff7371" class="outline-4">
-<h4 id="org8ff7371"><span class="section-number-4">4.3.3</span> Les temps du futur</h4>
+<div id="outline-container-org0d6308c" class="outline-4">
+<h4 id="org0d6308c"><span class="section-number-4">4.3.3</span> Les temps du futur</h4>
 <div class="outline-text-4" id="text-4-3-3">
-</div><ol class="org-ol"><li><a id="org15554fa"></a>Fait dans le futur : <span class="underline">Futur simple</span><br /><div class="outline-text-5" id="text-4-3-3-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgae2baa2"></a>Fait dans le futur : <span class="underline">Futur simple</span><br />
+<div class="outline-text-5" id="text-4-3-3-1">
 <pre class="example">
 Il partira demain
 </pre>
-<p>
-<br />
-</p>
 
 <p>
 <i>Dans le langage familier, le verbe « aller » est souvent utilisé pour exprimer le futur :</i>
@@ -1521,27 +1538,26 @@ Il partira demain
 <pre class="example">
 Il va partir demain
 </pre>
-<p>
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="org5717b18"></a>Fait du futur, mais antérieur à un autre fait du futur : <span class="underline">Futur antérieur</span><br /><div class="outline-text-5" id="text-4-3-3-2">
+<li><a id="org5883303"></a>Fait du futur, mais antérieur à un autre fait du futur : <span class="underline">Futur antérieur</span><br />
+<div class="outline-text-5" id="text-4-3-3-2">
 <pre class="example">
 Quand tu arriveras, il sera parti
 </pre>
-<p>
-<br />
-</p>
-</div></li></ol>
+</div>
+</li>
+</ol>
 </div>
 </div>
 
-<div id="outline-container-org66a4175" class="outline-3">
-<h3 id="org66a4175"><span class="section-number-3">4.4</span> Exercices</h3>
+<div id="outline-container-org53c9c57" class="outline-3">
+<h3 id="org53c9c57"><span class="section-number-3">4.4</span> Exercices</h3>
 <div class="outline-text-3" id="text-4-4">
-</div><div id="outline-container-org8b7ec02" class="outline-4">
-<h4 id="org8b7ec02"><span class="section-number-4">4.4.1</span> Conjuguer les verbes aux temps appropriés</h4>
+</div>
+<div id="outline-container-org0927e5f" class="outline-4">
+<h4 id="org0927e5f"><span class="section-number-4">4.4.1</span> Conjuguer les verbes aux temps appropriés</h4>
 <div class="outline-text-4" id="text-4-4-1">
 <pre class="example">
 Nous (se marier) il y a 50 ans
@@ -1552,14 +1568,11 @@ Il me racontait qu'ils (être) ensemble depuis 50 ans
 
 Normalement, il (aller) à la fac à pied, mais ce jour là, il (prendre) le bus
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-org45a3bab" class="outline-4">
-<h4 id="org45a3bab"><span class="section-number-4">4.4.2</span> Déterminer le temps de tous les verbes et expliquer leur emploi</h4>
+<div id="outline-container-orgaf1514f" class="outline-4">
+<h4 id="orgaf1514f"><span class="section-number-4">4.4.2</span> Déterminer le temps de tous les verbes et expliquer leur emploi</h4>
 <div class="outline-text-4" id="text-4-4-2">
 <pre class="example">
 Il lisait le journal quand la porte claqua
@@ -1568,40 +1581,32 @@ En 2009, il n'avait pas encore acheté sa voiture et il allait à la fac en bus
 
 Je suis dépassée par les événements
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org55058c8" class="outline-3">
-<h3 id="org55058c8"><span class="section-number-3">4.5</span> Concordance des temps à l'indicatif</h3>
+<div id="outline-container-orgefd4eec" class="outline-3">
+<h3 id="orgefd4eec"><span class="section-number-3">4.5</span> Concordance des temps à l'indicatif</h3>
 <div class="outline-text-3" id="text-4-5">
-</div><div id="outline-container-orgfde67ee" class="outline-4">
-<h4 id="orgfde67ee"><span class="section-number-4">4.5.1</span> Définition</h4>
+</div>
+<div id="outline-container-org52270eb" class="outline-4">
+<h4 id="org52270eb"><span class="section-number-4">4.5.1</span> Définition</h4>
 <div class="outline-text-4" id="text-4-5-1">
 <p>
 La concordance des temps est la relation entre le temps des verbes des propositions principale et subordonnée
-&emsp;
-&emsp;
 </p>
+
 <pre class="example">
 Je trouve (proposition principale) que c'est bien compliqué (proposition subordonnée) !
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-org2c6368f" class="outline-4">
-<h4 id="org2c6368f"><span class="section-number-4">4.5.2</span> Si les faits exprimés par les propositions principale et subordonnée se situent au même moment dans le temps</h4>
+<div id="outline-container-orgcf5109e" class="outline-4">
+<h4 id="orgcf5109e"><span class="section-number-4">4.5.2</span> Si les faits exprimés par les propositions principale et subordonnée se situent au même moment dans le temps</h4>
 <div class="outline-text-4" id="text-4-5-2">
 <p>
 Il faut harmoniser les temps des propositions
-<br />
-<br />
 </p>
 
 <p>
@@ -1619,20 +1624,16 @@ Au passé, cela donne :
 <pre class="example">
 Je pensais (hier) qu'il était ici (hier)
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-orgacb632b" class="outline-4">
-<h4 id="orgacb632b"><span class="section-number-4">4.5.3</span> Les faits exprimés par les propositions principale et subordonnée ne se situent pas forcément au même moment dans le temps</h4>
+<div id="outline-container-orgd2522e3" class="outline-4">
+<h4 id="orgd2522e3"><span class="section-number-4">4.5.3</span> Les faits exprimés par les propositions principale et subordonnée ne se situent pas forcément au même moment dans le temps</h4>
 <div class="outline-text-4" id="text-4-5-3">
-</div><ol class="org-ol"><li><a id="org92abccc"></a>Antériorité (le fait de la subordonnée est situé <b>avant</b> le fait de la principale)<br /><div class="outline-text-5" id="text-4-5-3-1">
-<p>
-<br />
-</p>
-
+</div>
+<ol class="org-ol">
+<li><a id="org535e44d"></a>Antériorité (le fait de la subordonnée est situé <b>avant</b> le fait de la principale)<br />
+<div class="outline-text-5" id="text-4-5-3-1">
 <p>
 Au présent :
 </p>
@@ -1648,16 +1649,11 @@ Au passé :
 <pre class="example">
 Je pensais (hier) qu'il était déjà parti (avant)
 </pre>
-<p>
-<br />
-</p>
-</div></li>
+</div>
+</li>
 
-<li><a id="org2a50fdb"></a>Postériorité (le fait de la subordonnée est situé <b>après</b> le fait de la principale)<br /><div class="outline-text-5" id="text-4-5-3-2">
-<p>
-<br />
-</p>
-
+<li><a id="org6671779"></a>Postériorité (le fait de la subordonnée est situé <b>après</b> le fait de la principale)<br />
+<div class="outline-text-5" id="text-4-5-3-2">
 <p>
 Au présent :
 </p>
@@ -1673,18 +1669,18 @@ Au passé :
 <pre class="example">
 Je pensais (hier) qu'il serait ici (aujourd'hui)
 </pre>
-<p>
-<br />
-</p>
-</div></li></ol>
+</div>
+</li>
+</ol>
 </div>
 </div>
 
-<div id="outline-container-org954a532" class="outline-3">
-<h3 id="org954a532"><span class="section-number-3">4.6</span> Exercices</h3>
+<div id="outline-container-org0d93815" class="outline-3">
+<h3 id="org0d93815"><span class="section-number-3">4.6</span> Exercices</h3>
 <div class="outline-text-3" id="text-4-6">
-</div><div id="outline-container-org2e172df" class="outline-4">
-<h4 id="org2e172df"><span class="section-number-4">4.6.1</span> Conjuguer les verbes aux temps appropriés</h4>
+</div>
+<div id="outline-container-org6618e6f" class="outline-4">
+<h4 id="org6618e6f"><span class="section-number-4">4.6.1</span> Conjuguer les verbes aux temps appropriés</h4>
 <div class="outline-text-4" id="text-4-6-1">
 <pre class="example">
 Je te dis qu'il (être - fait simultané) ici
@@ -1695,22 +1691,21 @@ Je te disais qu'il (être - fait simultané) ici
 
 Je te disais qu'il (être - fait ultérieur) ici
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgecf5699" class="outline-2">
-<h2 id="orgecf5699"><span class="section-number-2">5</span> Structure de texte : vocabulaire</h2>
+<div id="outline-container-org483c989" class="outline-2">
+<h2 id="org483c989"><span class="section-number-2">5</span> Structure de texte : vocabulaire</h2>
 <div class="outline-text-2" id="text-5">
-</div><div id="outline-container-org18be1f4" class="outline-3">
-<h3 id="org18be1f4"><span class="section-number-3">5.1</span> Énumérer</h3>
+</div>
+<div id="outline-container-orgfd030f1" class="outline-3">
+<h3 id="orgfd030f1"><span class="section-number-3">5.1</span> Énumérer</h3>
 <div class="outline-text-3" id="text-5-1">
-</div><div id="outline-container-orgab49d41" class="outline-4">
-<h4 id="orgab49d41"><span class="section-number-4">5.1.1</span> Commencer</h4>
+</div>
+<div id="outline-container-org7a304ee" class="outline-4">
+<h4 id="org7a304ee"><span class="section-number-4">5.1.1</span> Commencer</h4>
 <div class="outline-text-4" id="text-5-1-1">
 <pre class="example">
 Premièrement
@@ -1719,14 +1714,11 @@ Tout d'abord
 Au début
 Pour commencer
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-org256fa7d" class="outline-4">
-<h4 id="org256fa7d"><span class="section-number-4">5.1.2</span> Continuer</h4>
+<div id="outline-container-org9312dfd" class="outline-4">
+<h4 id="org9312dfd"><span class="section-number-4">5.1.2</span> Continuer</h4>
 <div class="outline-text-4" id="text-5-1-2">
 <pre class="example">
 CHRONOLOGIQUEMENT :
@@ -1743,14 +1735,11 @@ Par ailleurs
 Aussi
 Egalement
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-org4173cc3" class="outline-4">
-<h4 id="org4173cc3"><span class="section-number-4">5.1.3</span> Finir</h4>
+<div id="outline-container-org43bfa65" class="outline-4">
+<h4 id="org43bfa65"><span class="section-number-4">5.1.3</span> Finir</h4>
 <div class="outline-text-4" id="text-5-1-3">
 <pre class="example">
 Enfin
@@ -1760,32 +1749,27 @@ Pour terminer
 Pour conclure
 En conclusion
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org1051405" class="outline-3">
-<h3 id="org1051405"><span class="section-number-3">5.2</span> Contraster/comparer</h3>
+<div id="outline-container-org924e87c" class="outline-3">
+<h3 id="org924e87c"><span class="section-number-3">5.2</span> Contraster/comparer</h3>
 <div class="outline-text-3" id="text-5-2">
-</div><div id="outline-container-orgc9dba3c" class="outline-4">
-<h4 id="orgc9dba3c"><span class="section-number-4">5.2.1</span> Similarités</h4>
+</div>
+<div id="outline-container-orgfb4cada" class="outline-4">
+<h4 id="orgfb4cada"><span class="section-number-4">5.2.1</span> Similarités</h4>
 <div class="outline-text-4" id="text-5-2-1">
 <pre class="example">
 De la même manière
 De la même façon
 Similairement
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-orgffdb11f" class="outline-4">
-<h4 id="orgffdb11f"><span class="section-number-4">5.2.2</span> Différences</h4>
+<div id="outline-container-org72ceb75" class="outline-4">
+<h4 id="org72ceb75"><span class="section-number-4">5.2.2</span> Différences</h4>
 <div class="outline-text-4" id="text-5-2-2">
 <pre class="example">
 En revanche
@@ -1796,15 +1780,12 @@ D'autre part
 D'un autre côté
 Par ailleurs
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org5328727" class="outline-3">
-<h3 id="org5328727"><span class="section-number-3">5.3</span> Causalité</h3>
+<div id="outline-container-org3b89c2b" class="outline-3">
+<h3 id="org3b89c2b"><span class="section-number-3">5.3</span> Causalité</h3>
 <div class="outline-text-3" id="text-5-3">
 <pre class="example">
 Du coup
@@ -1816,37 +1797,32 @@ Donc
 Ainsi
 C'est pourquoi
 </pre>
-<p>
-<br />
-</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orga81d4fb" class="outline-2">
-<h2 id="orga81d4fb"><span class="section-number-2">6</span> Construire une dissertation en français</h2>
+<div id="outline-container-orgb60562d" class="outline-2">
+<h2 id="orgb60562d"><span class="section-number-2">6</span> Construire une dissertation en français</h2>
 <div class="outline-text-2" id="text-6">
 <p>
-&nbsp; <i>Veuillez noter que ceci ne représente que mon opinion personnelle. Les consignes que vous recevez de vos professeurs sont sans aucun doute plus importantes que les conseils que je présente ici. Si vous avez des doutes, la meilleure chose à faire est toujours de discuter avec le professeur afin d'éliminer toute confusion quant à ses attentes. Il se peut que votre professeur ait une vision différente de la mienne sur la structure d'une dissertation. Il n'y a, de toute façon, aucune règle absolue et ceci ne représente qu'une façon, parmi beaucoup d'autres, de construire un plan.</i>
-<br />
+<i>Veuillez noter que ceci ne représente que mon opinion personnelle. Les consignes que vous recevez de vos professeurs sont sans aucun doute plus importantes que les conseils que je présente ici. Si vous avez des doutes, la meilleure chose à faire est toujours de discuter avec le professeur afin d'éliminer toute confusion quant à ses attentes. Il se peut que votre professeur ait une vision différente de la mienne sur la structure d'une dissertation. Il n'y a, de toute façon, aucune règle absolue et ceci ne représente qu'une façon, parmi beaucoup d'autres, de construire un plan.</i>
 </p>
 </div>
 
-<div id="outline-container-orgb36c80b" class="outline-3">
-<h3 id="orgb36c80b"><span class="section-number-3">6.1</span> Commencer par faire un plan</h3>
+<div id="outline-container-org202d566" class="outline-3">
+<h3 id="org202d566"><span class="section-number-3">6.1</span> Commencer par faire un plan</h3>
 <div class="outline-text-3" id="text-6-1">
 <p>
-&nbsp; Ne vous embarquez pas dans l'écriture avant d'avoir un plan ! Si vous vous lancez dans l'écriture en aveugle, vous allez perdre énormément de temps à rédiger des choses qui ne fonctionneront probablement pas et que vous devrez réécrire. Assurez vous d'avoir un plan solide avant de commencer à rédiger des phrases. Pour construire ce squelette, des tirets avec vos idées suffisent.
-<br />
+Ne vous embarquez pas dans l'écriture avant d'avoir un plan ! Si vous vous lancez dans l'écriture en aveugle, vous allez perdre énormément de temps à rédiger des choses qui ne fonctionneront probablement pas et que vous devrez réécrire. Assurez vous d'avoir un plan solide avant de commencer à rédiger des phrases. Pour construire ce squelette, des tirets avec vos idées suffisent.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org339b53d" class="outline-3">
-<h3 id="org339b53d"><span class="section-number-3">6.2</span> Le sablier</h3>
+<div id="outline-container-org458d327" class="outline-3">
+<h3 id="org458d327"><span class="section-number-3">6.2</span> Le sablier</h3>
 <div class="outline-text-3" id="text-6-2">
 <p>
-&nbsp; Pour structurer votre plan, imaginez un sablier :
+Pour structurer votre plan, imaginez un sablier :
 </p>
 
 
@@ -1890,74 +1866,62 @@ Vous ne voulez pas laisser le lecteur avec cette vue très pointue d'un sujet. V
 <li>Une troisième sous-partie peut comporter des questions laissées ouvertes.</li>
 </ol></li>
 </ul>
-<p>
-<br />
-</p>
 </div>
 </div>
 
-<div id="outline-container-orgade1336" class="outline-3">
-<h3 id="orgade1336"><span class="section-number-3">6.3</span> Dans quel ordre rédiger tout ça ?</h3>
+<div id="outline-container-orgc2c0b26" class="outline-3">
+<h3 id="orgc2c0b26"><span class="section-number-3">6.3</span> Dans quel ordre rédiger tout ça ?</h3>
 <div class="outline-text-3" id="text-6-3">
 <p>
-&nbsp; Vous avez votre plan et vous en êtes content. Maintenant, il est temps de commencer à rédiger&#x2026; mais dans quel ordre ? La question peut vous surprendre vu que la plupart des gens commencent&#x2026; par l'introduction. Erreur ! L'introduction est probablement la partie la plus difficile à écrire. Il est beaucoup plus facile de commencer par le corps de la dissertation car c'est vraiment votre sujet. A partir de là, vous pourrez assez facilement écrire la conclusion. Et finalement, à la fin, après avoir passé tout ce temps avec votre dissertation, vous serez en bien meilleure position pour attaquer cette fameuse introduction qui est si difficile.
-<br />
+Vous avez votre plan et vous en êtes content. Maintenant, il est temps de commencer à rédiger&#x2026; mais dans quel ordre ? La question peut vous surprendre vu que la plupart des gens commencent&#x2026; par l'introduction. Erreur ! L'introduction est probablement la partie la plus difficile à écrire. Il est beaucoup plus facile de commencer par le corps de la dissertation car c'est vraiment votre sujet. A partir de là, vous pourrez assez facilement écrire la conclusion. Et finalement, à la fin, après avoir passé tout ce temps avec votre dissertation, vous serez en bien meilleure position pour attaquer cette fameuse introduction qui est si difficile.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orge97b70c" class="outline-3">
-<h3 id="orge97b70c"><span class="section-number-3">6.4</span> L'aspect visuel : paragraphes et alinéas</h3>
+<div id="outline-container-org231baae" class="outline-3">
+<h3 id="org231baae"><span class="section-number-3">6.4</span> L'aspect visuel : paragraphes et alinéas</h3>
 <div class="outline-text-3" id="text-6-4">
 <p>
-&nbsp; Séparez les grandes parties (introduction, corps de la dissertation et conclusion) en sautant une ligne. Les différentes parties du corps central de votre dissertation peuvent aussi être séparées par une ligne blanche.
-&nbsp; Chaque partie et sous-partie commence typiquement par un alinéa (« indent » en anglais).
-&nbsp; De cette façon, le lecteur peut, avant même de commencer à lire, voir la structure de votre dissertation.
-<br />
+Séparez les grandes parties (introduction, corps de la dissertation et conclusion) en sautant une ligne. Les différentes parties du corps central de votre dissertation peuvent aussi être séparées par une ligne blanche.
+Chaque partie et sous-partie commence typiquement par un alinéa (« indent » en anglais).
+De cette façon, le lecteur peut, avant même de commencer à lire, voir la structure de votre dissertation.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgf3d82c9" class="outline-3">
-<h3 id="orgf3d82c9"><span class="section-number-3">6.5</span> Équilibre entre les parties</h3>
+<div id="outline-container-org650fc5d" class="outline-3">
+<h3 id="org650fc5d"><span class="section-number-3">6.5</span> Équilibre entre les parties</h3>
 <div class="outline-text-3" id="text-6-5">
 <p>
-&nbsp; Les deux à quatre parties du corps de votre dissertation doivent être équilibrées : vous ne voulez pas avoir une partie de plusieurs pages et une autre de quelques lignes. Si tel est le cas, essayez de structurer vos idées différemment en fusionnant certaines parties entre elles ou en revisitant votre plan.
-<br />
+Les deux à quatre parties du corps de votre dissertation doivent être équilibrées : vous ne voulez pas avoir une partie de plusieurs pages et une autre de quelques lignes. Si tel est le cas, essayez de structurer vos idées différemment en fusionnant certaines parties entre elles ou en revisitant votre plan.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgfdd977c" class="outline-3">
-<h3 id="orgfdd977c"><span class="section-number-3">6.6</span> Les transitions</h3>
+<div id="outline-container-org5a9e723" class="outline-3">
+<h3 id="org5a9e723"><span class="section-number-3">6.6</span> Les transitions</h3>
 <div class="outline-text-3" id="text-6-6">
 <p>
-&nbsp; Il est classique de lier les différentes parties ou sous-parties les unes avec les autres grâce à des phrases de transition qui mettent en évidence la cohésion logique de l'ensemble. Vous ne voulez pas que votre essai ressemble à une juxtaposition d'idées sans rapport les unes avec les autres.
-<br />
+Il est classique de lier les différentes parties ou sous-parties les unes avec les autres grâce à des phrases de transition qui mettent en évidence la cohésion logique de l'ensemble. Vous ne voulez pas que votre essai ressemble à une juxtaposition d'idées sans rapport les unes avec les autres.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org814e405" class="outline-3">
-<h3 id="org814e405"><span class="section-number-3">6.7</span> Citer des sources</h3>
+<div id="outline-container-orgb9c4fbb" class="outline-3">
+<h3 id="orgb9c4fbb"><span class="section-number-3">6.7</span> Citer des sources</h3>
 <div class="outline-text-3" id="text-6-7">
 <p>
-&nbsp; En français, comme en anglais, il est important de citer vos sources. Le site de la bibliothèque de SFU a de nombreuses ressources sur le format à suivre :
-</p>
-
-<p>
-<a href="http://www.lib.sfu.ca/help/cite-write/citation-style-guides/apa">http://www.lib.sfu.ca/help/cite-write/citation-style-guides/apa</a>
-<br />
+En français, comme en anglais, il est important de citer vos sources. <a href="http://www.lib.sfu.ca/help/cite-write/citation-style-guides/apa">Le site de la bibliothèque de SFU</a> a de nombreuses ressources sur le format à suivre.
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org9502968" class="outline-2">
-<h2 id="org9502968"><span class="section-number-2">7</span> Outil utile : comment faire les caractères français sur n'importe quel clavier ?</h2>
+<div id="outline-container-org5eced20" class="outline-2">
+<h2 id="org5eced20"><span class="section-number-2">7</span> Outil utile : comment faire les caractères français sur n'importe quel clavier ?</h2>
 <div class="outline-text-2" id="text-7">
 <p>
-&nbsp; La méthode la plus simple est d'utiliser le clavier international américain. Je n'explique pas ici comment l'activer car cela dépend de votre système d'exploitation (OS), mais les instructions sont très simples et disponibles partout sur internet. Une fois activé, le clavier international transforme :
+La méthode la plus simple est d'utiliser le clavier international américain. Je n'explique pas ici comment l'activer car cela dépend de votre système d'exploitation (OS), mais les instructions sont très simples et disponibles partout sur internet. Une fois activé, le clavier international transforme :
 </p>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -2064,100 +2028,90 @@ Vous ne voulez pas laisser le lecteur avec cette vue très pointue d'un sujet. V
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+
+<div id="outline-container-org1219592" class="outline-2">
+<h2 id="org1219592"><span class="section-number-2">8</span> Où trouver de l'aide en français ?</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org095b90d" class="outline-3">
+<h3 id="org095b90d"><span class="section-number-3">8.1</span> A SFU : le Student Learning Commons</h3>
+<div class="outline-text-3" id="text-8-1">
+<p>
+Le Student Learning Commons offre depuis l'année dernière deux services pour les étudiants écrivant en français :
+</p>
 
 <ul class="org-ul">
-<li>Où trouver de l'aide en français ?</li>
+<li>des consultations particulières hebdomadaires</li>
+<li>des ateliers</li>
 </ul>
-<p>
-<br />
-</p>
 </div>
 
-<div id="outline-container-orga42b71e" class="outline-3">
-<h3 id="orga42b71e"><span class="section-number-3">7.1</span> A SFU : le Student Learning Commons</h3>
-<div class="outline-text-3" id="text-7-1">
+<div id="outline-container-orgf75df9a" class="outline-4">
+<h4 id="orgf75df9a"><span class="section-number-4">8.1.1</span> Consultations particulières</h4>
+<div class="outline-text-4" id="text-8-1-1">
 <p>
-&nbsp; Le Student Learning Commons offre depuis l'année dernière deux services pour les étudiants écrivant en français :
-</p>
-
-<p>
-&lowast; des consultations particulières hebdomadaires<br />
-&lowast; des ateliers
-<br />
-</p>
-</div>
-
-<div id="outline-container-org877a861" class="outline-4">
-<h4 id="org877a861"><span class="section-number-4">7.1.1</span> Consultations particulières</h4>
-<div class="outline-text-4" id="text-7-1-1">
-<p>
-&nbsp; Des consultations particulières hebdomadaires sont disponibles. Prenez rendez-vous sur le site du Student Learning Commons :
-</p>
-
-<p>
-<a href="http://www.lib.sfu.ca/about/branches-depts/slc/writing">http://www.lib.sfu.ca/about/branches-depts/slc/writing</a>
-<br />
+Des consultations particulières hebdomadaires sont disponibles. Prenez rendez-vous sur <a href="http://www.lib.sfu.ca/about/branches-depts/slc/writing">le site du Student Learning Commons</a>.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org217fe6e" class="outline-4">
-<h4 id="org217fe6e"><span class="section-number-4">7.1.2</span> Ateliers</h4>
-<div class="outline-text-4" id="text-7-1-2">
+<div id="outline-container-org2038c97" class="outline-4">
+<h4 id="org2038c97"><span class="section-number-4">8.1.2</span> Ateliers</h4>
+<div class="outline-text-4" id="text-8-1-2">
 <p>
-&nbsp; Des ateliers d'écriture en français sont organisés régulièrement. Regardez le programme sur le site du Student Learning Commons :
+Des ateliers d'écriture en français sont organisés régulièrement. Regardez le programme sur <a href="http://www.lib.sfu.ca/about/branches-depts/slc/offer/slc-workshops/writing">le site du Student Learning Commons</a>.
 </p>
 
 <p>
-<a href="http://www.lib.sfu.ca/about/branches-depts/slc/offer/slc-workshops/writing">http://www.lib.sfu.ca/about/branches-depts/slc/offer/slc-workshops/writing</a>
-</p>
-
-<p>
-&nbsp; Si vous avez des suggestions de nouveaux ateliers d'écriture en français qui vous seraient utiles, n'hésitez pas à nous en faire part en écrivant à l'adresse mail : <a href="mailto:learning-commons@sfu.ca">mailto:learning-commons@sfu.ca</a>
-<br />
+Si vous avez des suggestions de nouveaux ateliers d'écriture en français qui vous seraient utiles, n'hésitez pas à nous en faire part en écrivant à <a href="mailto:learning-commons@sfu.ca">cette adresse mail</a>.
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org0a94abb" class="outline-3">
-<h3 id="org0a94abb"><span class="section-number-3">7.2</span> Sur internet : sites utiles</h3>
-<div class="outline-text-3" id="text-7-2">
-</div><div id="outline-container-org54ae86d" class="outline-4">
-<h4 id="org54ae86d"><span class="section-number-4">7.2.1</span> Dictionnaires</h4>
-<div class="outline-text-4" id="text-7-2-1">
-</div><ol class="org-ol"><li><a id="org32b51e1"></a>Français<br /><div class="outline-text-5" id="text-7-2-1-1">
+<div id="outline-container-org25f3574" class="outline-3">
+<h3 id="org25f3574"><span class="section-number-3">8.2</span> Sur internet : sites utiles</h3>
+<div class="outline-text-3" id="text-8-2">
+</div>
+<div id="outline-container-org4d4a870" class="outline-4">
+<h4 id="org4d4a870"><span class="section-number-4">8.2.1</span> Dictionnaires</h4>
+<div class="outline-text-4" id="text-8-2-1">
+</div>
+<ol class="org-ol">
+<li><a id="org8caebc9"></a>Français<br />
+<div class="outline-text-5" id="text-8-2-1-1">
 <p>
-Le meilleur dictionnaire de français en ligne ! Une ressource vraiment excellente.<br />
-<a href="http://www.cnrtl.fr/definition/">http://www.cnrtl.fr/definition/</a>
-<br />
+<a href="http://www.cnrtl.fr/definition/">Le meilleur dictionnaire de français en ligne</a> ! Une ressource vraiment excellente.
 </p>
-</div></li>
+</div>
+</li>
 
-<li><a id="org4ef4718"></a>Français/anglais<br /><div class="outline-text-5" id="text-7-2-1-2">
+<li><a id="org7189e97"></a>Français/anglais<br />
+<div class="outline-text-5" id="text-8-2-1-2">
 <p>
 <a href="http://www.wordreference.com/">http://www.wordreference.com/</a>
-<br />
-</p>
-</div></li></ol>
-</div>
-
-<div id="outline-container-org3310a64" class="outline-4">
-<h4 id="org3310a64"><span class="section-number-4">7.2.2</span> Conjugaison</h4>
-<div class="outline-text-4" id="text-7-2-2">
-<p>
-Un bon site de conjugaison :<br />
-<a href="http://leconjugueur.lefigaro.fr/php5/index.php?v">http://leconjugueur.lefigaro.fr/php5/index.php?v</a>
-<br />
 </p>
 </div>
+</li>
+</ol>
 </div>
 
-<div id="outline-container-orga2af102" class="outline-4">
-<h4 id="orga2af102"><span class="section-number-4">7.2.3</span> Plagiat</h4>
-<div class="outline-text-4" id="text-7-2-3">
+<div id="outline-container-org9eccef3" class="outline-4">
+<h4 id="org9eccef3"><span class="section-number-4">8.2.2</span> Conjugaison</h4>
+<div class="outline-text-4" id="text-8-2-2">
 <p>
-&nbsp; Toutes les règles que vous avez apprises sur le plagiat dans vos travaux en anglais s'appliquent également en français. Le plagiat est un sujet sérieux que SFU traite avec beaucoup d'attention et si vous n'êtes pas sûrs des règles, je vous encourage vivement à vous familiariser avec elles en lisant les sites suivants. Pour SFU, l'ignorance n'est pas une excuse&#x2026;
+<a href="http://leconjugueur.lefigaro.fr/php5/index.php?v">Un bon site de conjugaison</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge052657" class="outline-4">
+<h4 id="orge052657"><span class="section-number-4">8.2.3</span> Plagiat</h4>
+<div class="outline-text-4" id="text-8-2-3">
+<p>
+Toutes les règles que vous avez apprises sur le plagiat dans vos travaux en anglais s'appliquent également en français. Le plagiat est un sujet sérieux que SFU traite avec beaucoup d'attention et si vous n'êtes pas sûrs des règles, je vous encourage vivement à vous familiariser avec elles en lisant les sites suivants. Pour SFU, l'ignorance n'est pas une excuse&#x2026;
 </p>
 
 <p>
@@ -2178,152 +2132,137 @@ Un bon site de conjugaison :<br />
 
 <p>
 <a href="https://www.sfu.ca/biology/academic-honesty.html">https://www.sfu.ca/biology/academic-honesty.html</a>
-<br />
 </p>
 </div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgc485f6b" class="outline-2">
-<h2 id="orgc485f6b"><span class="section-number-2">8</span> S'immerger d'avantage dans le français</h2>
-<div class="outline-text-2" id="text-8">
-</div><div id="outline-container-orgd63540e" class="outline-3">
-<h3 id="orgd63540e"><span class="section-number-3">8.1</span> Rencontrer des gens pour parler français</h3>
-<div class="outline-text-3" id="text-8-1">
-</div><div id="outline-container-orgd593f73" class="outline-4">
-<h4 id="orgd593f73"><span class="section-number-4">8.1.1</span> Meetup français</h4>
-<div class="outline-text-4" id="text-8-1-1">
+<div id="outline-container-org58e9464" class="outline-2">
+<h2 id="org58e9464"><span class="section-number-2">9</span> S'immerger d'avantage dans le français</h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-org84a51bb" class="outline-3">
+<h3 id="org84a51bb"><span class="section-number-3">9.1</span> Rencontrer des gens pour parler français</h3>
+<div class="outline-text-3" id="text-9-1">
+</div>
+<div id="outline-container-org47b92b6" class="outline-4">
+<h4 id="org47b92b6"><span class="section-number-4">9.1.1</span> Meetup français</h4>
+<div class="outline-text-4" id="text-9-1-1">
 <p>
-Vancouver French Langage Meetup<br />
-<a href="http://www.meetup.com/Vancouver-French-Meetup/">http://www.meetup.com/Vancouver-French-Meetup/</a>
-<br />
+<a href="http://www.meetup.com/Vancouver-French-Meetup/">Vancouver French Langage Meetup</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-org7324e54" class="outline-4">
-<h4 id="org7324e54"><span class="section-number-4">8.1.2</span> Le Centre Culturel Francophone de Vancouver</h4>
-<div class="outline-text-4" id="text-8-1-2">
+<div id="outline-container-org6e5f7ef" class="outline-4">
+<h4 id="org6e5f7ef"><span class="section-number-4">9.1.2</span> Le Centre Culturel Francophone de Vancouver</h4>
+<div class="outline-text-4" id="text-9-1-2">
 <p>
 <a href="http://www.lecentreculturel.com/en">http://www.lecentreculturel.com/en</a>
-<br />
 </p>
 </div>
 </div>
 
-<div id="outline-container-org4caf5f4" class="outline-4">
-<h4 id="org4caf5f4"><span class="section-number-4">8.1.3</span> App</h4>
-<div class="outline-text-4" id="text-8-1-3">
+<div id="outline-container-org3ea64c7" class="outline-4">
+<h4 id="org3ea64c7"><span class="section-number-4">9.1.3</span> App</h4>
+<div class="outline-text-4" id="text-9-1-3">
 <p>
-Hello Talk<br />
-<a href="http://www.hellotalk.com/#en">http://www.hellotalk.com/#en</a>
-<br />
+<a href="http://www.hellotalk.com/#en">Hello Talk</a>
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org1c1604a" class="outline-3">
-<h3 id="org1c1604a"><span class="section-number-3">8.2</span> Écouter du français : podcasts (ou « baladodiffusion »)</h3>
-<div class="outline-text-3" id="text-8-2">
-</div><div id="outline-container-org23df36a" class="outline-4">
-<h4 id="org23df36a"><span class="section-number-4">8.2.1</span> Histoire et culture</h4>
-<div class="outline-text-4" id="text-8-2-1">
+<div id="outline-container-org60c1ffd" class="outline-3">
+<h3 id="org60c1ffd"><span class="section-number-3">9.2</span> Écouter du français : podcasts (ou « baladodiffusion »)</h3>
+<div class="outline-text-3" id="text-9-2">
+</div>
+<div id="outline-container-org779a990" class="outline-4">
+<h4 id="org779a990"><span class="section-number-4">9.2.1</span> Histoire et culture</h4>
+<div class="outline-text-4" id="text-9-2-1">
 <p>
-Radio Canada : Aujourd'hui l'histoire<br />
-<a href="http://ici.radio-canada.ca/emissions/aujourd_hui_l_histoire/2016-2017/">http://ici.radio-canada.ca/emissions/aujourd_hui_l_histoire/2016-2017/</a>
+Radio Canada : <a href="http://ici.radio-canada.ca/emissions/aujourd_hui_l_histoire/2016-2017/">Aujourd'hui l'histoire</a>.
 </p>
 
 <p>
-France Culture : Les nuits de France Culture<br />
-<a href="http://www.franceculture.fr/emissions/les-nuits-de-france-culture">http://www.franceculture.fr/emissions/les-nuits-de-france-culture</a>
-<br />
+France Culture : <a href="http://www.franceculture.fr/emissions/les-nuits-de-france-culture">Les nuits de France Culture</a>.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org7f5cdd0" class="outline-4">
-<h4 id="org7f5cdd0"><span class="section-number-4">8.2.2</span> Infos (« Informations » en France ou « Nouvelles » au Canada)</h4>
-<div class="outline-text-4" id="text-8-2-2">
+<div id="outline-container-org1e426f7" class="outline-4">
+<h4 id="org1e426f7"><span class="section-number-4">9.2.2</span> Infos (« Informations » en France ou « Nouvelles » au Canada)</h4>
+<div class="outline-text-4" id="text-9-2-2">
 <p>
-France Inter : Le journal de 18h<br />
-<a href="https://www.franceinter.fr/emissions/le-journal-de-18h">https://www.franceinter.fr/emissions/le-journal-de-18h</a>
+France Inter : <a href="https://www.franceinter.fr/emissions/le-journal-de-18h">Le journal de 18h</a>.
 </p>
 
 <p>
-Radio Canada : Midi info<br />
-<a href="http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/midiinfo">http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/midiinfo</a>
-<br />
+Radio Canada : <a href="http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/midiinfo">Midi info</a>.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orge77919b" class="outline-4">
-<h4 id="orge77919b"><span class="section-number-4">8.2.3</span> Sciences et technologie</h4>
-<div class="outline-text-4" id="text-8-2-3">
+<div id="outline-container-org325d64b" class="outline-4">
+<h4 id="org325d64b"><span class="section-number-4">9.2.3</span> Sciences et technologie</h4>
+<div class="outline-text-4" id="text-9-2-3">
 <p>
-France Culture : La marche des sciences<br />
-<a href="https://www.franceculture.fr/emissions/la-marche-des-sciences">https://www.franceculture.fr/emissions/la-marche-des-sciences</a>
+France Culture : <a href="https://www.franceculture.fr/emissions/la-marche-des-sciences">La marche des sciences</a>.
 </p>
 
 <p>
-Radio Canada : Les années lumières<br />
-<a href="http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/lumiere">http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/lumiere</a>
-<br />
+Radio Canada : <a href="http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/lumiere">Les années lumières</a>.
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgd531fe2" class="outline-3">
-<h3 id="orgd531fe2"><span class="section-number-3">8.3</span> Voir/regarder du français</h3>
-<div class="outline-text-3" id="text-8-3">
-</div><div id="outline-container-org2c7148f" class="outline-4">
-<h4 id="org2c7148f"><span class="section-number-4">8.3.1</span> Théâtre en français</h4>
-<div class="outline-text-4" id="text-8-3-1">
+<div id="outline-container-org7edc362" class="outline-3">
+<h3 id="org7edc362"><span class="section-number-3">9.3</span> Voir/regarder du français</h3>
+<div class="outline-text-3" id="text-9-3">
+</div>
+<div id="outline-container-orgc3f0b5f" class="outline-4">
+<h4 id="orgc3f0b5f"><span class="section-number-4">9.3.1</span> Théâtre en français</h4>
+<div class="outline-text-4" id="text-9-3-1">
 <p>
-Théâtre la Seizième<br />
-<a href="http://seizieme.ca/">http://seizieme.ca/</a>
-<br />
+<a href="http://seizieme.ca/">Théâtre la Seizième</a>.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org1af2db8" class="outline-4">
-<h4 id="org1af2db8"><span class="section-number-4">8.3.2</span> Internet</h4>
-<div class="outline-text-4" id="text-8-3-2">
+<div id="outline-container-orgb2a10ea" class="outline-4">
+<h4 id="orgb2a10ea"><span class="section-number-4">9.3.2</span> Internet</h4>
+<div class="outline-text-4" id="text-9-3-2">
 <p>
 Nombreuses options pour voir des films, apprendre de nouveaux mots, améliorer sa prononciation, apprendre à conjuguer&#x2026;
-<br />
 </p>
 </div>
 </div>
 
-<div id="outline-container-org3904d18" class="outline-4">
-<h4 id="org3904d18"><span class="section-number-4">8.3.3</span> Films</h4>
-<div class="outline-text-4" id="text-8-3-3">
+<div id="outline-container-org57e5a72" class="outline-4">
+<h4 id="org57e5a72"><span class="section-number-4">9.3.3</span> Films</h4>
+<div class="outline-text-4" id="text-9-3-3">
 <p>
 De nombreux films français sont disponibles gratuitement dans les bibliothèques publiques et de SFU :
 </p>
 
 <p>
-&nbsp; &rarr;  SFU movie collection
+&rarr;  SFU movie collection
 </p>
 
 <p>
-&nbsp; &rarr;  Vancouver Public Library
+&rarr;  Vancouver Public Library
 </p>
 
 <p>
-&nbsp; &rarr;  Burnaby Public Library
+&rarr;  Burnaby Public Library
 </p>
 
 <br>
-<br>
 
 <p>
-<div style="font-size: 90%; background-color: #eee8d5; border: 1pt solid #93a1a1">This page was created using a modified version of a css style by Thomas Frössman (itself based on the solarized color theme from Ethan Schoonover), as well as parts of a modified version of the worg css stylesheet for the table of contents</div>
+<div style="font-size: 80%; background-color: #eee8d5; border: 1pt solid #c9cfcf; margin: 20px; padding: 5px 10px;  border-radius: 5px; line-height: 18px">This page was inspired by a style from Thomas Frössman (itself based on the solarized color theme from Ethan Schoonover). The table of contents uses parts of a modified version of the worg css.</div>
 </p>
 </div>
 </div>

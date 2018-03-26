@@ -16,14 +16,14 @@
 #+OPTIONS: prop:("VERSION")
 #+HTML_DOCTYPE: <!DOCTYPE html>
 
-#+TITLE: Resources for Academic Writing in French
+#+TITLE: Resources for@@html:<br>@@Academic Writing in French
 #+DATE: {{{time(%B %d\, %Y)}}}
 #+AUTHOR: Marie-Hélène Burle
 #+EMAIL: msb2@sfu.ca
 
 * Purpose of this document
 
-\nbsp This document offers resources to students writing in French at
+This document offers resources to students writing in French at
 the undergraduate and postgraduate levels. It has been inspired by the
 recurring questions and issues encountered during consultations with
 students at /Simon Fraser University's Student Learning Commons/. It
@@ -33,12 +33,9 @@ b. Advice on dissertation structure and dissertation writing
 c. A useful tip on how to easily type special French characters on any keyboard
 d. Suggestions as to where students can find additional help
 e. Ideas on where to meet French speakers and how to get exposed to the language to improve fluency
-\nbsp The information presented is valid as of April 2017. The rest of this information is written in French since it is destined to people with at least a basic understanding of the language.
-
-#+HTML: <br>
+The information presented is valid as of April 2017. The rest of this information is written in French since it is destined to people with at least a basic understanding of the language.
 
 *This document is available as a printable [[./resources.pdf][pdf version]]*
-\\
 
 * Orthographe et typographie
 
@@ -87,7 +84,6 @@ les habitants d'un pays \rightarrow @@html:<span style="padding: px; color: #001
 #+BEGIN_EXAMPLE
 Les Français sont tout le temps en grève
 #+END_EXAMPLE
-\\
 
 **** Jours de la semaine et mois
 
@@ -98,7 +94,6 @@ Le lundi et le mardi
 Le jeudi 3 mars
 Tous les dimanches de novembre
 #+END_EXAMPLE
-\\
 
 *** Ponctuation
 
@@ -116,7 +111,6 @@ Il lui dit : « d'accord »
 #+END_EXAMPLE
 
 Note : un éditeur de texte (par exemple MS Word ou OpenOffice Writer) corrigera tout cela automatiquement si vous le mettez en français.
-\\
 
 *** « et » et la virgule
 
@@ -133,7 +127,6 @@ French, English, and Spanish
 #+BEGIN_EXAMPLE
 Le français, l'anglais et l'espagnol
 #+END_EXAMPLE
-\\
 
 ** Utiliser le féminin pour trouver l'orthographe des noms, adjectifs et participes passés
 
@@ -144,7 +137,6 @@ chat   ->   chatte
 ouvert   ->   ouverte
 remis  ->   remise
 #+END_EXAMPLE
-\\
 
 * Grammaire
 
@@ -160,14 +152,13 @@ remis  ->   remise
 Le complément d'agent fait l'action (voix active)
 
 L'action est faite PAR le complément d'agent (voix passive)
+#+END_EXAMPLE
 
-
-
+#+BEGIN_EXAMPLE
 Notre équipe a réalisé une étude (voix active)
 
 Une étude a été réalisée PAR notre équipe (voix passive)
 #+END_EXAMPLE
-\\
 
 *** Formation
 
@@ -184,21 +175,18 @@ Le lapin est mangé par le loup
 Le lapin a mangé la salade
         (Passé composé de la voix active. Le lapin a mangé la salade hier)
 #+END_EXAMPLE
-\\
 
 *** Écrivez à l'actif !
 
-\nbsp Pendant longtemps, il a été d'usage d'utiliser la voix passive dans les travaux académiques, probablement par modestie. Cette habitude est tombée en désuétude, mais malheureusement les étudiants continuent trop souvent à écrire au passif, rendant les textes tortueux et le style inutilement lourd. Je vous encourage vivement à utiliser la voix active :
+Pendant longtemps, il a été d'usage d'utiliser la voix passive dans les travaux académiques, probablement par modestie. Cette habitude est tombée en désuétude, mais malheureusement les étudiants continuent trop souvent à écrire au passif, rendant les textes tortueux et le style inutilement lourd. Je vous encourage vivement à utiliser la voix active :
 1. la construction est beaucoup plus directe
 2. il est maintenant d'usage d'annoncer clairement et sans détour que nous sommes l'auteur d'un travail
-\\
 
 ** Règles d'accord
 
 *** Les adjectifs
 
 @@html:<span style="padding: px; color: #00141a; background-color: #7acc00; border:  px solid">@@Les adjectifs s'accordent en genre et en nombre avec le nom auquel ils se rapportent@@html:</span>@@
-\\
 
 *** Les participes passés
 
@@ -239,7 +227,6 @@ Il l'a pris     ( = le verre)
 Il l'a prise    ( = la pomme)
 Il les a prises ( = les pommes)
 #+END_EXAMPLE
-\\
 
 ** « Nous » et « on »
 
@@ -257,15 +244,13 @@ On arrive !     ( = nous arrivons !)
 #+END_EXAMPLE
 
 Ceci est cependant à éviter à l'écrit, à moins que l'on veuille donner au texte une connotation familière.
-\\
-\\
 
 ** Articles définis et indéfinis
 
 *** Forme
 
 **** Définis 
-\\
+
 | français : | le/la | les |
 | anglais :  | the   | the |
 
@@ -273,10 +258,9 @@ Ceci est cependant à éviter à l'écrit, à moins que l'on veuille donner au t
 le chat  ->  les chats
 the cat  ->  the cats
 #+END_EXAMPLE
-\\
 
 **** Indéfinis
-\\
+
 | français : | un/une | des       |
 | anglais :  | a      | \emptyset |
 
@@ -284,7 +268,6 @@ the cat  ->  the cats
 un chat  ->  des chats
 a cat    ->  cats
 #+END_EXAMPLE
-\\
 
 *** Usage
 
@@ -302,7 +285,6 @@ La Terre est ronde
 La lune
         (On suppose qu'il s'agit de notre lune, celle qui tourne autour de la terre, et que donc on sait de laquelle il s'agit)
 #+END_EXAMPLE
-\\
 
 **** Indéfinis 
 
@@ -320,8 +302,6 @@ Une lune
 #+END_EXAMPLE
 
 _C'est en fait très similaire à l'anglais. Réfléchissez à ce que vous diriez en anglais_
-\\
-\\
 
 ** Adverbes
 
@@ -331,20 +311,14 @@ _C'est en fait très similaire à l'anglais. Réfléchissez à ce que vous dirie
 #+BEGIN_EXAMPLE
 grand    ->    grandement
 #+END_EXAMPLE
-\\
 
 * Conjugaison
 
-** Formation : une bonne référence
+** Conjuguer
 
-#+BEGIN_QUOTE
-http://leconjugueur.lefigaro.fr/php5/index.php?v
-#+END_QUOTE
-\\
+[[http://leconjugueur.lefigaro.fr/php5/index.php?v][Une excellente ressource]].
 
-\nbsp\nbsp /Mais le plus dur n'est pas de savoir conjuguer, mais de choisir le mode et le temps adéquats.../
-\\
-\\
+/Mais le plus dur n'est pas de savoir conjuguer, mais de choisir le mode et le temps adéquats.../
 
 ** Modes et Temps
 
@@ -353,13 +327,10 @@ http://leconjugueur.lefigaro.fr/php5/index.php?v
 **** Les modes
 \thinsp
 Les modes donnent une @@html:<span style="color: #00141a; background-color: #993366">@@connotation@@html:</span>@@ à l'action ou à l'état exprimé par le verbe
-\\
 
 **** Les temps
 \thinsp
 Les temps apportent une information sur la @@html:<span style="color: #00141a; background-color: #993366">@@temporalité@@html:</span>@@ de cette action ou de cet état
-\\
-\\
 
 *** Modes
 
@@ -368,7 +339,6 @@ Les temps apportent une information sur la @@html:<span style="color: #00141a; b
 #+BEGIN_EXAMPLE
 S'il fait beau demain, j'irai me promener
 #+END_EXAMPLE
-\\
 
 @@html:<span style="color: #00141a; background-color: #e6e600">@@Le subjonctif@@html:</span>@@ est le mode de l'incertitude, du doute, du souhait
 
@@ -376,14 +346,12 @@ S'il fait beau demain, j'irai me promener
 Je ne suis pas sûre qu'il fasse beau demain
 Il est possible que je n' aille pas me promener
 #+END_EXAMPLE
-\\
 
 @@html:<span style="color: #00141a; background-color: #e6e600">@@Le conditionnel@@html:</span>@@ est le mode de la politesse, du conseil, de la suggestion, du reproche, du fait imaginaire ou incertain
 
 #+BEGIN_EXAMPLE
 S'il faisait beau demain, j'irais me promener
 #+END_EXAMPLE
-\\
 
 *** Les temps de l'indicatif
 
@@ -391,8 +359,7 @@ S'il faisait beau demain, j'irais me promener
 
  | *Temps simple*  | Présent       | Passé simple    | Imparfait        | Futur simple    |
  | *Temps composé* | Passé composé | Passé antérieur | Plus-que-parfait | Futur antérieur |
- \\
-
+ 
 ** Choisir le temps du verbe à l'indicatif
 
 *** Le présent
@@ -402,23 +369,18 @@ S'il faisait beau demain, j'irais me promener
  #+BEGIN_EXAMPLE
  La Terre est ronde
  #+END_EXAMPLE
- \emsp
-\\
 
 **** Fait qui se déroule en ce moment
 
 #+BEGIN_EXAMPLE
 Je donne un atelier de français
 #+END_EXAMPLE
-\emsp
-\\
 
 **** Fait qui se poursuit dans le présent
 
 #+BEGIN_EXAMPLE
 Ça fait deux heures que j'attends
 #+END_EXAMPLE
-\\
 
 *** Les temps du passé
 
@@ -427,7 +389,6 @@ Je donne un atelier de français
 #+BEGIN_EXAMPLE
 Il était grand et il marchait beaucoup
 #+END_EXAMPLE
-\\
 
 **** Fait ponctuel : _Passé simple_ ou _Passé composé_
 
@@ -435,14 +396,12 @@ Il était grand et il marchait beaucoup
 Il est arrivé à quatre heure
 Il arriva à quatre heure
 #+END_EXAMPLE
-\\
 
 **** Fait antérieur à un autre fait du passé : _Plus-que-parfait_
 
 #+BEGIN_EXAMPLE
 Quand je suis arrivée, il était déjà parti
 #+END_EXAMPLE
-\\
 
 *** Les temps du futur
 
@@ -451,21 +410,18 @@ Quand je suis arrivée, il était déjà parti
 #+BEGIN_EXAMPLE
 Il partira demain
 #+END_EXAMPLE
-\\
 
 /Dans le langage familier, le verbe « aller » est souvent utilisé pour exprimer le futur :/
 
 #+BEGIN_EXAMPLE
 Il va partir demain
 #+END_EXAMPLE
-\\
 
 **** Fait du futur, mais antérieur à un autre fait du futur : _Futur antérieur_
 
 #+BEGIN_EXAMPLE
 Quand tu arriveras, il sera parti
 #+END_EXAMPLE
-\\
 
 ** Exercices
 
@@ -480,7 +436,6 @@ Il me racontait qu'ils (être) ensemble depuis 50 ans
 
 Normalement, il (aller) à la fac à pied, mais ce jour là, il (prendre) le bus
 #+END_EXAMPLE
-\\
 
 *** Déterminer le temps de tous les verbes et expliquer leur emploi
 
@@ -491,25 +446,20 @@ En 2009, il n'avait pas encore acheté sa voiture et il allait à la fac en bus
 
 Je suis dépassée par les événements
 #+END_EXAMPLE
-\\
 
 ** Concordance des temps à l'indicatif
 
 *** Définition
 
 La concordance des temps est la relation entre le temps des verbes des propositions principale et subordonnée
-\emsp
-\emsp
+
 #+BEGIN_EXAMPLE
 Je trouve (proposition principale) que c'est bien compliqué (proposition subordonnée) !
 #+END_EXAMPLE
-\\
 
 *** Si les faits exprimés par les propositions principale et subordonnée se situent au même moment dans le temps
 
 Il faut harmoniser les temps des propositions
-\\
-\\
 
 Au présent :
 
@@ -522,12 +472,10 @@ Au passé, cela donne :
 #+BEGIN_EXAMPLE
 Je pensais (hier) qu'il était ici (hier)
 #+END_EXAMPLE
-\\
 
 *** Les faits exprimés par les propositions principale et subordonnée ne se situent pas forcément au même moment dans le temps
 
 **** Antériorité (le fait de la subordonnée est situé *avant* le fait de la principale)
-\\
 
 Au présent :
 
@@ -540,10 +488,8 @@ Au passé :
 #+BEGIN_EXAMPLE
 Je pensais (hier) qu'il était déjà parti (avant)
 #+END_EXAMPLE
-\\
 
 **** Postériorité (le fait de la subordonnée est situé *après* le fait de la principale)
-\\
 
 Au présent :
 
@@ -556,7 +502,6 @@ Au passé :
 #+BEGIN_EXAMPLE
 Je pensais (hier) qu'il serait ici (aujourd'hui)
 #+END_EXAMPLE
-\\
 
 ** Exercices
 
@@ -571,7 +516,6 @@ Je te disais qu'il (être - fait simultané) ici
 
 Je te disais qu'il (être - fait ultérieur) ici
 #+END_EXAMPLE
-\\
 
 * Structure de texte : vocabulaire
 
@@ -586,7 +530,6 @@ Tout d'abord
 Au début
 Pour commencer
 #+END_EXAMPLE
-\\
 
 *** Continuer
 
@@ -605,7 +548,6 @@ Par ailleurs
 Aussi
 Egalement
 #+END_EXAMPLE
-\\
 
 *** Finir
 
@@ -617,7 +559,6 @@ Pour terminer
 Pour conclure
 En conclusion
 #+END_EXAMPLE
-\\
 
 ** Contraster/comparer
 
@@ -628,7 +569,6 @@ De la même manière
 De la même façon
 Similairement
 #+END_EXAMPLE
-\\
 
 *** Différences
 
@@ -641,7 +581,6 @@ D'autre part
 D'un autre côté
 Par ailleurs
 #+END_EXAMPLE
-\\
 
 ** Causalité
 
@@ -655,22 +594,25 @@ Donc
 Ainsi
 C'est pourquoi
 #+END_EXAMPLE
-\\
 
 * Construire une dissertation en français
 
-\nbsp /Veuillez noter que ceci ne représente que mon opinion personnelle. Les consignes que vous recevez de vos professeurs sont sans aucun doute plus importantes que les conseils que je présente ici. Si vous avez des doutes, la meilleure chose à faire est toujours de discuter avec le professeur afin d'éliminer toute confusion quant à ses attentes. Il se peut que votre professeur ait une vision différente de la mienne sur la structure d'une dissertation. Il n'y a, de toute façon, aucune règle absolue et ceci ne représente qu'une façon, parmi beaucoup d'autres, de construire un plan./
-\\
+/Veuillez noter que ceci ne représente que mon opinion personnelle. Les consignes que vous recevez de vos professeurs sont sans aucun doute plus importantes que les conseils que je présente ici. Si vous avez des doutes, la meilleure chose à faire est toujours de discuter avec le professeur afin d'éliminer toute confusion quant à ses attentes. Il se peut que votre professeur ait une vision différente de la mienne sur la structure d'une dissertation. Il n'y a, de toute façon, aucune règle absolue et ceci ne représente qu'une façon, parmi beaucoup d'autres, de construire un plan./
 
 ** Commencer par faire un plan
 
-\nbsp Ne vous embarquez pas dans l'écriture avant d'avoir un plan ! Si vous vous lancez dans l'écriture en aveugle, vous allez perdre énormément de temps à rédiger des choses qui ne fonctionneront probablement pas et que vous devrez réécrire. Assurez vous d'avoir un plan solide avant de commencer à rédiger des phrases. Pour construire ce squelette, des tirets avec vos idées suffisent.
-\\
+Ne vous embarquez pas dans l'écriture avant d'avoir un plan ! Si vous vous lancez dans l'écriture en aveugle, vous allez perdre énormément de temps à rédiger des choses qui ne fonctionneront probablement pas et que vous devrez réécrire. Assurez vous d'avoir un plan solide avant de commencer à rédiger des phrases. Pour construire ce squelette, des tirets avec vos idées suffisent.
 
 ** Le sablier
 
-\nbsp Pour structurer votre plan, imaginez un sablier :
+Pour structurer votre plan, imaginez un sablier :
 
+#+ATTR_HTML: :height 300
+#+ATTR_ORG: :width 150
+#+ATTR_HTML: :height 300
+#+ATTR_HTML: :height 300
+#+ATTR_HTML: :height 300
+#+ATTR_HTML: :height 300
 #+ATTR_HTML: :height 300
 [[./Sablier.png]]
 
@@ -691,40 +633,32 @@ C'est pourquoi
     1. Une première sous-partie qui conclut votre dissertation,
     2. Un élargissement de la problématique,
     3. Une troisième sous-partie peut comporter des questions laissées ouvertes.
-\\
 
 ** Dans quel ordre rédiger tout ça ?
 
-\nbsp Vous avez votre plan et vous en êtes content. Maintenant, il est temps de commencer à rédiger... mais dans quel ordre ? La question peut vous surprendre vu que la plupart des gens commencent... par l'introduction. Erreur ! L'introduction est probablement la partie la plus difficile à écrire. Il est beaucoup plus facile de commencer par le corps de la dissertation car c'est vraiment votre sujet. A partir de là, vous pourrez assez facilement écrire la conclusion. Et finalement, à la fin, après avoir passé tout ce temps avec votre dissertation, vous serez en bien meilleure position pour attaquer cette fameuse introduction qui est si difficile.
-\\
+Vous avez votre plan et vous en êtes content. Maintenant, il est temps de commencer à rédiger... mais dans quel ordre ? La question peut vous surprendre vu que la plupart des gens commencent... par l'introduction. Erreur ! L'introduction est probablement la partie la plus difficile à écrire. Il est beaucoup plus facile de commencer par le corps de la dissertation car c'est vraiment votre sujet. A partir de là, vous pourrez assez facilement écrire la conclusion. Et finalement, à la fin, après avoir passé tout ce temps avec votre dissertation, vous serez en bien meilleure position pour attaquer cette fameuse introduction qui est si difficile.
 
 ** L'aspect visuel : paragraphes et alinéas
 
-\nbsp Séparez les grandes parties (introduction, corps de la dissertation et conclusion) en sautant une ligne. Les différentes parties du corps central de votre dissertation peuvent aussi être séparées par une ligne blanche.
-\nbsp Chaque partie et sous-partie commence typiquement par un alinéa (« indent » en anglais).
-\nbsp De cette façon, le lecteur peut, avant même de commencer à lire, voir la structure de votre dissertation.
-\\
+Séparez les grandes parties (introduction, corps de la dissertation et conclusion) en sautant une ligne. Les différentes parties du corps central de votre dissertation peuvent aussi être séparées par une ligne blanche.
+Chaque partie et sous-partie commence typiquement par un alinéa (« indent » en anglais).
+De cette façon, le lecteur peut, avant même de commencer à lire, voir la structure de votre dissertation.
 
 ** Équilibre entre les parties
 
-\nbsp Les deux à quatre parties du corps de votre dissertation doivent être équilibrées : vous ne voulez pas avoir une partie de plusieurs pages et une autre de quelques lignes. Si tel est le cas, essayez de structurer vos idées différemment en fusionnant certaines parties entre elles ou en revisitant votre plan.
-\\
+Les deux à quatre parties du corps de votre dissertation doivent être équilibrées : vous ne voulez pas avoir une partie de plusieurs pages et une autre de quelques lignes. Si tel est le cas, essayez de structurer vos idées différemment en fusionnant certaines parties entre elles ou en revisitant votre plan.
 
 ** Les transitions
 
-\nbsp Il est classique de lier les différentes parties ou sous-parties les unes avec les autres grâce à des phrases de transition qui mettent en évidence la cohésion logique de l'ensemble. Vous ne voulez pas que votre essai ressemble à une juxtaposition d'idées sans rapport les unes avec les autres.
-\\
+Il est classique de lier les différentes parties ou sous-parties les unes avec les autres grâce à des phrases de transition qui mettent en évidence la cohésion logique de l'ensemble. Vous ne voulez pas que votre essai ressemble à une juxtaposition d'idées sans rapport les unes avec les autres.
 
 ** Citer des sources
 
-\nbsp En français, comme en anglais, il est important de citer vos sources. Le site de la bibliothèque de SFU a de nombreuses ressources sur le format à suivre :
-
-http://www.lib.sfu.ca/help/cite-write/citation-style-guides/apa
-\\
+En français, comme en anglais, il est important de citer vos sources. [[http://www.lib.sfu.ca/help/cite-write/citation-style-guides/apa][Le site de la bibliothèque de SFU]] a de nombreuses ressources sur le format à suivre.
 
 * Outil utile : comment faire les caractères français sur n'importe quel clavier ?
 
-\nbsp La méthode la plus simple est d'utiliser le clavier international américain. Je n'explique pas ici comment l'activer car cela dépend de votre système d'exploitation (OS), mais les instructions sont très simples et disponibles partout sur internet. Une fois activé, le clavier international transforme :
+La méthode la plus simple est d'utiliser le clavier international américain. Je n'explique pas ici comment l'activer car cela dépend de votre système d'exploitation (OS), mais les instructions sont très simples et disponibles partout sur internet. Une fois activé, le clavier international transforme :
 
  | '' \rightarrow ' |   |   | `a \rightarrow à |   |   | ^^ \rightarrow ^ |   |   | "" \rightarrow " |
  | 'e \rightarrow é |   |   | `e \rightarrow è |   |   | ^a \rightarrow â |   |   | "e \rightarrow ë |
@@ -733,32 +667,24 @@ http://www.lib.sfu.ca/help/cite-write/citation-style-guides/apa
  |                  |   |   |                  |   |   | ^o \rightarrow ô |   |   | "y \rightarrow ÿ |
  |                  |   |   |                  |   |   | ^u \rightarrow û |   |   |                  |
 
- * Où trouver de l'aide en français ?
-\\
+*  Où trouver de l'aide en français ?
 
 ** A SFU : le Student Learning Commons
 
-\nbsp Le Student Learning Commons offre depuis l'année dernière deux services pour les étudiants écrivant en français :
+Le Student Learning Commons offre depuis l'année dernière deux services pour les étudiants écrivant en français :
 
-\ast des consultations particulières hebdomadaires\\
-\ast des ateliers
-\\
+- des consultations particulières hebdomadaires
+- des ateliers
 
 *** Consultations particulières
 
-\nbsp Des consultations particulières hebdomadaires sont disponibles. Prenez rendez-vous sur le site du Student Learning Commons :
-
-http://www.lib.sfu.ca/about/branches-depts/slc/writing
-\\
+Des consultations particulières hebdomadaires sont disponibles. Prenez rendez-vous sur [[http://www.lib.sfu.ca/about/branches-depts/slc/writing][le site du Student Learning Commons]].
 
 *** Ateliers
 
-\nbsp Des ateliers d'écriture en français sont organisés régulièrement. Regardez le programme sur le site du Student Learning Commons :
+Des ateliers d'écriture en français sont organisés régulièrement. Regardez le programme sur [[http://www.lib.sfu.ca/about/branches-depts/slc/offer/slc-workshops/writing][le site du Student Learning Commons]].
 
-http://www.lib.sfu.ca/about/branches-depts/slc/offer/slc-workshops/writing
-
-\nbsp Si vous avez des suggestions de nouveaux ateliers d'écriture en français qui vous seraient utiles, n'hésitez pas à nous en faire part en écrivant à l'adresse mail : mailto:learning-commons@sfu.ca
-\\
+Si vous avez des suggestions de nouveaux ateliers d'écriture en français qui vous seraient utiles, n'hésitez pas à nous en faire part en écrivant à [[mailto:learning-commons@sfu.ca][cette adresse mail]].
 
 ** Sur internet : sites utiles
 
@@ -766,24 +692,19 @@ http://www.lib.sfu.ca/about/branches-depts/slc/offer/slc-workshops/writing
 
 **** Français
 
-Le meilleur dictionnaire de français en ligne ! Une ressource vraiment excellente.\\
-http://www.cnrtl.fr/definition/
-\\
+[[http://www.cnrtl.fr/definition/][Le meilleur dictionnaire de français en ligne]] ! Une ressource vraiment excellente.
 
 **** Français/anglais
 
 http://www.wordreference.com/
-\\
 
 *** Conjugaison
 
-Un bon site de conjugaison :\\
-http://leconjugueur.lefigaro.fr/php5/index.php?v
-\\
+[[http://leconjugueur.lefigaro.fr/php5/index.php?v][Un bon site de conjugaison]].
 
 *** Plagiat
 
-\nbsp Toutes les règles que vous avez apprises sur le plagiat dans vos travaux en anglais s'appliquent également en français. Le plagiat est un sujet sérieux que SFU traite avec beaucoup d'attention et si vous n'êtes pas sûrs des règles, je vous encourage vivement à vous familiariser avec elles en lisant les sites suivants. Pour SFU, l'ignorance n'est pas une excuse...
+Toutes les règles que vous avez apprises sur le plagiat dans vos travaux en anglais s'appliquent également en français. Le plagiat est un sujet sérieux que SFU traite avec beaucoup d'attention et si vous n'êtes pas sûrs des règles, je vous encourage vivement à vous familiariser avec elles en lisant les sites suivants. Pour SFU, l'ignorance n'est pas une excuse...
 
 http://www.lib.sfu.ca/help/academic-integrity/plagiarism
 
@@ -794,7 +715,6 @@ https://www.sfu.ca/students/academicintegrity/resources/academichonestyguide.htm
 http://www.sfu.ca/~smith/plagiarism.html
 
 https://www.sfu.ca/biology/academic-honesty.html
-\\
 
 * S'immerger d'avantage dans le français
 
@@ -802,74 +722,56 @@ https://www.sfu.ca/biology/academic-honesty.html
 
 *** Meetup français
 
-Vancouver French Langage Meetup\\
-http://www.meetup.com/Vancouver-French-Meetup/
-\\
+[[http://www.meetup.com/Vancouver-French-Meetup/][Vancouver French Langage Meetup]]
 
 *** Le Centre Culturel Francophone de Vancouver
 
 http://www.lecentreculturel.com/en
-\\
 
 *** App
 
- Hello Talk\\
- http://www.hellotalk.com/#en
-\\
+ [[http://www.hellotalk.com/#en][Hello Talk]]
 
 ** Écouter du français : podcasts (ou « baladodiffusion »)
 
 *** Histoire et culture
 
-Radio Canada : Aujourd'hui l'histoire\\
-http://ici.radio-canada.ca/emissions/aujourd_hui_l_histoire/2016-2017/
+Radio Canada : [[http://ici.radio-canada.ca/emissions/aujourd_hui_l_histoire/2016-2017/][Aujourd'hui l'histoire]].
 
-France Culture : Les nuits de France Culture\\
-http://www.franceculture.fr/emissions/les-nuits-de-france-culture
-\\
+France Culture : [[http://www.franceculture.fr/emissions/les-nuits-de-france-culture][Les nuits de France Culture]].
 
 *** Infos (« Informations » en France ou « Nouvelles » au Canada)
 
-France Inter : Le journal de 18h\\
-https://www.franceinter.fr/emissions/le-journal-de-18h
+France Inter : [[https://www.franceinter.fr/emissions/le-journal-de-18h][Le journal de 18h]].
 
-Radio Canada : Midi info\\
-http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/midiinfo
-\\
+Radio Canada : [[http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/midiinfo][Midi info]].
 
 *** Sciences et technologie
 
-France Culture : La marche des sciences\\
-https://www.franceculture.fr/emissions/la-marche-des-sciences
+France Culture : [[https://www.franceculture.fr/emissions/la-marche-des-sciences][La marche des sciences]].
 
-Radio Canada : Les années lumières\\
-http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/lumiere
-\\
+Radio Canada : [[http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/lumiere][Les années lumières]].
 
 ** Voir/regarder du français
 
 *** Théâtre en français
 
-Théâtre la Seizième\\
-http://seizieme.ca/
-\\
+[[http://seizieme.ca/][Théâtre la Seizième]].
 
 *** Internet
 
 Nombreuses options pour voir des films, apprendre de nouveaux mots, améliorer sa prononciation, apprendre à conjuguer...
-\\
 
 *** Films
 
 De nombreux films français sont disponibles gratuitement dans les bibliothèques publiques et de SFU :
 
-\nbsp \rightarrow  SFU movie collection
+\rightarrow  SFU movie collection
 
-\nbsp \rightarrow  Vancouver Public Library
+\rightarrow  Vancouver Public Library
 
-\nbsp \rightarrow  Burnaby Public Library
+\rightarrow  Burnaby Public Library
 
 #+HTML: <br>
-#+HTML: <br>
 
-@@html:<div style="font-size: 90%; background-color: #eee8d5; border: 1pt solid #93a1a1">@@This page was created using a modified version of a css style by Thomas Frössman (itself based on the solarized color theme from Ethan Schoonover), as well as parts of a modified version of the worg css stylesheet for the table of contents@@html:</div>@@
+@@html:<div style="font-size: 80%; background-color: #eee8d5; border: 1pt solid #c9cfcf; margin: 20px; padding: 5px 10px;  border-radius: 5px; line-height: 18px">@@This page was inspired by a style from Thomas Frössman (itself based on the solarized color theme from Ethan Schoonover). The table of contents uses parts of a modified version of the worg css.@@html:</div>@@
