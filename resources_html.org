@@ -609,11 +609,6 @@ Pour structurer votre plan, imaginez un sablier :
 
 #+ATTR_HTML: :height 300
 #+ATTR_ORG: :width 150
-#+ATTR_HTML: :height 300
-#+ATTR_HTML: :height 300
-#+ATTR_HTML: :height 300
-#+ATTR_HTML: :height 300
-#+ATTR_HTML: :height 300
 [[./Sablier.png]]
 
 + @@html:<span style="color: #00141a; background-color: LightSkyBlue">@@L'introduction@@html:</span>@@, en bleu dans le sablier, commence large et se réduit petit à petit.
