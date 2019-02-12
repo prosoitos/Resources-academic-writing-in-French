@@ -35,7 +35,7 @@ d. Suggestions as to where students can find additional help
 e. Ideas on where to meet French speakers and how to get exposed to the language to improve fluency
 The information presented is valid as of April 2017. The rest of this information is written in French since it is destined to people with at least a basic understanding of the language.
 
-*This document is available as a printable [[./resources.pdf][pdf version]]*
+*This document is available as a printable [[https://github.com/prosoitos/Resources_academic-writing-in-French/files/1836067/resources.pdf][pdf version]]*
 
 * Orthographe et typographie
 
@@ -609,7 +609,7 @@ Pour structurer votre plan, imaginez un sablier :
 
 #+ATTR_HTML: :height 300
 #+ATTR_ORG: :width 150
-[[./Sablier.png]]
+[[https://cloud.githubusercontent.com/assets/4634851/24784470/ad06875a-1b07-11e7-9d83-6394d3251241.png]]
 
 + @@html:<span style="color: #00141a; background-color: LightSkyBlue">@@L'introduction@@html:</span>@@, en bleu dans le sablier, commence large et se réduit petit à petit.
 
