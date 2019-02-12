@@ -766,7 +766,3 @@ De nombreux films français sont disponibles gratuitement dans les bibliothèque
 \rightarrow  Vancouver Public Library
 
 \rightarrow  Burnaby Public Library
-
-#+HTML: <br>
-
-@@html:<div style="font-size: 80%; background-color: #eee8d5; border: 1pt solid #c9cfcf; margin: 20px; padding: 5px 10px;  border-radius: 5px; line-height: 18px">@@This page was inspired by a style from Thomas Frössman (itself based on the solarized color theme from Ethan Schoonover). The table of contents uses parts of a modified version of the worg css.@@html:</div>@@
